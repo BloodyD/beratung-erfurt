@@ -16,6 +16,18 @@ def page(request, path):
     "content": page.content,
   }
 
+@render_to("private.html")
+def private(request):
+  return {
+    "page_title": "page.title",
+  }
+
+
+@render_to("company.html")
+def company(request):
+  return {
+    "page_title": "page.title",
+  }
 
 
 from .errors import *

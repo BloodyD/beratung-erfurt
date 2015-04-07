@@ -26,6 +26,8 @@ sitemaps = {'views': ViewSitemap}
 urlpatterns = patterns('',
 
     url(r'^$', 'beratung_erfurt.views.index', name = 'index'),
+    url(r'^private/$', 'beratung_erfurt.views.private', name = 'private'),
+    url(r'^company/$', 'beratung_erfurt.views.company', name = 'company'),
 
 
     url(r'^admin/', include(admin.site.urls)),
