@@ -89,9 +89,22 @@ WSGI_APPLICATION = 'beratung_erfurt.wsgi.application'
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+STATIC_URL = '/media/'
+MEDIA_URL = 'media/'
 
-TIME_ZONE = 'UTC'
+STATIC_ROOT = "/opt/beratung-erfurt-django/web/media/"
+MEDIA_ROOT = join(BASE_DIR, MEDIA_URL)
+
+STATICFILES_DIRS = [
+    # Put strings here, like "/home/html/static" or "C:/www/django/static".
+    # Always use forward slashes, even on Windows.
+    # Don't forget to use absolute paths, not relative paths.
+
+    MEDIA_ROOT,
+]
+LANGUAGE_CODE = 'de-DE'
+
+TIME_ZONE = 'Europe/Berlin'
 
 USE_I18N = True
 
