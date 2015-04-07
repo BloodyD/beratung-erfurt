@@ -25,11 +25,13 @@ sitemaps = {'views': ViewSitemap}
 
 urlpatterns = patterns('',
 
-    url(r'^$', 'beratung_erfurt.views.index', name='index'),
+    url(r'^$', 'beratung_erfurt.views.index', name = 'index'),
+
 
     url(r'^admin/', include(admin.site.urls)),
 
     (r'^sitemap\.xml$', 'django.contrib.sitemaps.views.sitemap', {'sitemaps': sitemaps}),
+    url(r'^(?P<path>.+?)/$', 'beratung_erfurt.views.page', name = 'page'),
 )
 
 if settings.DEBUG is True:

@@ -1,13 +1,20 @@
-from django.core.context_processors import csrf
-from utils.decorators import render_to
+from django.shortcuts import get_object_or_404
 
+from utils.decorators import render_to
+from beratung_erfurt.models import Page
 
 
 @render_to("index.html", "Index")
 def index(request):
-  output = csrf(request)
-  output["title"] = "Index"
-  return output
+  return {"title": "Index"}
+
+@render_to("page.html")
+def page(request, path):
+  page = get_object_or_404(Page, path = path, active = True)
+  return {
+    "page_title": page.title,
+    "content": page.content,
+  }
 
 
 

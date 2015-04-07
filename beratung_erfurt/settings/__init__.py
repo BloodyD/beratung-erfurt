@@ -20,6 +20,8 @@ from os.path import join
 with open(join(BASE_DIR, 'secret_key.txt')) as f:
     SECRET_KEY = f.read().strip()
 
+FIXTURE_DIRS = (join(BASE_DIR, 'fixtures'),)
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -59,8 +61,16 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.sitemaps',
     'django.contrib.staticfiles',
+    'django_extensions',
+    'beratung_erfurt',
     'utils'
 )
+
+import sys
+if "test" not in sys.argv:
+  INSTALLED_APPS += (
+    "south",
+  )
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',

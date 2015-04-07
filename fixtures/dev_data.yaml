@@ -1,0 +1,14 @@
+####### User
+- fields:
+    email: korschdima@gmail.com
+    first_name: ''
+    groups: []
+    is_active: true
+    is_staff: true
+    is_superuser: true
+    last_name: ''
+    password: pbkdf2_sha256$12000$IyvIujMngy2b$Dt6PaKTeUXW9wWmV0F1zibe6EdOzgfNi3XzD/nW+iBE=
+    user_permissions: []
+    username: Dima
+  model: auth.user
+  pk: 1
