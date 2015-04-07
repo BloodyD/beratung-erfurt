@@ -3,3 +3,4 @@ django_extensions
 mysql-python
 south
 uwsgi
+pyyaml
