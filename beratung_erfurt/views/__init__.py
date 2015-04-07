@@ -4,9 +4,9 @@ from utils.decorators import render_to
 from beratung_erfurt.models import Page
 
 
-@render_to("index.html", "Index")
+@render_to("index.html")
 def index(request):
-  return {"title": "Index"}
+  return {}
 
 @render_to("page.html")
 def page(request, path):
