@@ -35,7 +35,7 @@
 #### pages
 - fields:
     path: copyright
-    title: Ver\xF6ffentlichung und Urheberrechte
+    title: Veröffentlichung und Urheberrechte
     content: change me
     active: true
   model: beratung_erfurt.page
