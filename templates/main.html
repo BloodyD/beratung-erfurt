@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load inclusions %}
 
 
 {% block content %}
@@ -7,12 +8,11 @@
       <div class="panel panel-primary">
         <div class="panel-heading">{{ page_title }}</div>
         <div class="panel-body">
-          <div class="alert alert-info">{{ info_text }}</div>
-          <!--
-            Jeder steht einmal vor einer scheinbar unlösbaren Situation. Man verliert schnell die Nerven, ist unglücklich und sieht keinen Ausweg - doch den gibt es immer!
-            <br/><br/>
-            An dieser Stelle wird dir Unterstützung geboten, deinen - für dich individuell - richtigen Weg zu finden, welcher dir auch in Zukunft dabei helfen soll, erneuten Problemen standzuhalten.
-           -->
+          <div class="alert alert-info">
+            {% autoescape off %}
+              {{ info_text }}
+            {% endautoescape %}
+          </div>
           <ul class="nav nav-tabs">
             <li class="active">
               <a href="#item1" data-toggle="tab">Beratungskontext</a>
@@ -26,13 +26,25 @@
           </ul>
           <div class="tab-content">
             <div class="tab-pane active" id="item1">
-              <p>{{ context }}</p>
+              <p>
+                {% autoescape off %}
+                  {{ context }}
+                {% endautoescape %}
+              </p>
             </div>
             <div class="tab-pane" id="item2">
-              <p>{{ honorar }}</p>
+              <p>
+                {% autoescape off %}
+                  {{ honorar }}
+                {% endautoescape %}
+              </p>
             </div>
             <div class="tab-pane" id="item3">
-              <p>{{ contact }}</p>
+              <p>
+                {% autoescape off %}
+                  {{ contact }}
+                {% endautoescape %}
+              </p>
             </div>
           </div>
         </div>
@@ -41,14 +53,8 @@
 
     </div>
     <div class="col-sm-5">
-      <div class="row">
-        <div class="col-xs-4">PIC</div>
-        <div class="col-xs-8 well">Text</div>
-      </div>
-      <div class="row">
-        <div class="col-xs-4">PIC</div>
-        <div class="col-xs-8 well">Text</div>
-      </div>
+      {% box images.0 image_keys.0 texts.0 %}
+      {% box images.1 image_keys.1 texts.1 %}
     </div>
   </div>
   {% block bottom_content%}

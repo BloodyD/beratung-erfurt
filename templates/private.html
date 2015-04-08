@@ -1,33 +1,22 @@
 {% extends "main.html" %}
+{% load inclusions %}
 
 
 {% block bottom_content%}
   <div class="row">
-    <div class="col-sm-6">
-      <div class="row">
-        <div class="col-xs-4">PIC</div>
-        <div class="col-xs-8 well">Text</div>
-      </div>
+    <div class="col-sm-offset-2 col-sm-5">
+      {% box images.2 image_keys.2 texts.2 %}
     </div>
-    <div class="col-sm-6">
-      <div class="row">
-        <div class="col-xs-4">PIC</div>
-        <div class="col-xs-8 well">Text</div>
-      </div>
+    <div class="col-sm-5">
+      {% box images.3 image_keys.3 texts.3 %}
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-6">
-      <div class="row">
-        <div class="col-xs-4">PIC</div>
-        <div class="col-xs-8 well">Text</div>
-      </div>
+    <div class="col-sm-offset-2 col-sm-5">
+      {% box images.4 image_keys.4 texts.4 %}
     </div>
-    <div class="col-sm-6">
-      <div class="row">
-        <div class="col-xs-4">PIC</div>
-        <div class="col-xs-8 well">Text</div>
-      </div>
+    <div class="col-sm-5">
+      {% box images.5 image_keys.5 texts.5 %}
     </div>
   </div>
 {% endblock bottom_content%}
