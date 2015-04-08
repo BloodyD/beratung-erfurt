@@ -49,6 +49,7 @@ def private(request):
     "texts": map(info_text, text_keys),
     "images": map(img_url, img_keys),
     "image_keys": img_keys,
+    "urls": map(lambda key: key.replace(" ", "_"), keys),
   }
 
 
@@ -70,6 +71,7 @@ def company(request):
     "texts": map(info_text, text_keys),
     "images": map(img_url, img_keys),
     "image_keys": img_keys,
+    "urls": map(lambda key: key.replace(" ", "_"), keys),
   }
 
 

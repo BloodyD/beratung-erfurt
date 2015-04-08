@@ -1,3 +1,4 @@
+{% load reversetag %}
 <div class="row">
   <div class="col-xs-3">
   {% if img_url %}
@@ -10,5 +11,8 @@
     {% autoescape off %}
       {{ text }}
     {% endautoescape %}
+      <p>
+        <a href = "{{ url }}" class="btn btn-success btn-xs pull-right">Weiter <i class="glyphicon glyphicon-chevron-right"></i></a>
+      </p>
   </div>
 </div>
