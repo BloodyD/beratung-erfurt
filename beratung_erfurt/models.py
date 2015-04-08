@@ -14,4 +14,4 @@ class Text(models.Model):
 
 class Image(models.Model):
   key = models.CharField(verbose_name = "Key", max_length = 255)
-  image = models.ImageField(upload_to = "images")
+  image = models.ImageField(upload_to = "image_upload")
