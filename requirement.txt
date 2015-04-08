@@ -4,3 +4,4 @@ mysql-python
 south
 uwsgi
 pyyaml
+pillow
