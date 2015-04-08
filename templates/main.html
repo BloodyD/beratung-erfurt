@@ -7,11 +7,12 @@
       <div class="panel panel-primary">
         <div class="panel-heading">{{ page_title }}</div>
         <div class="panel-body">
-          <div class="alert alert-info">
+          <div class="alert alert-info">{{ info_text }}</div>
+          <!--
             Jeder steht einmal vor einer scheinbar unlösbaren Situation. Man verliert schnell die Nerven, ist unglücklich und sieht keinen Ausweg - doch den gibt es immer!
             <br/><br/>
             An dieser Stelle wird dir Unterstützung geboten, deinen - für dich individuell - richtigen Weg zu finden, welcher dir auch in Zukunft dabei helfen soll, erneuten Problemen standzuhalten.
-          </div>
+           -->
           <ul class="nav nav-tabs">
             <li class="active">
               <a href="#item1" data-toggle="tab">Beratungskontext</a>
@@ -25,13 +26,13 @@
           </ul>
           <div class="tab-content">
             <div class="tab-pane active" id="item1">
-              <p>TEXT1</p>
+              <p>{{ context }}</p>
             </div>
             <div class="tab-pane" id="item2">
-              <p>TEXT2</p>
+              <p>{{ honorar }}</p>
             </div>
             <div class="tab-pane" id="item3">
-              <p>TEXT3</p>
+              <p>{{ contact }}</p>
             </div>
           </div>
         </div>

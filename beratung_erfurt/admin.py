@@ -33,7 +33,7 @@ def register(*models, **kwargs):
 
 
 
-from beratung_erfurt.models import Page
+from beratung_erfurt.models import Page, Text
 
 @register(Page)
 class PageAdmin(admin.ModelAdmin):
@@ -46,3 +46,11 @@ class PageAdmin(admin.ModelAdmin):
     )
 
   list_filter = ['active']
+
+
+@register(Text)
+class TextAdmin(admin.ModelAdmin):
+  list_display = (
+    'key',
+    'content',
+    )

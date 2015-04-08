@@ -1,14 +1,111 @@
-####### User
-- fields:
+####### User- fields:
+    date_joined: 2015-04-07 10:13:23.594128+00:00
     email: korschdima@gmail.com
     first_name: ''
     groups: []
     is_active: true
     is_staff: true
     is_superuser: true
+    last_login: 2015-04-07 11:35:44.292976+00:00
     last_name: ''
     password: pbkdf2_sha256$12000$IyvIujMngy2b$Dt6PaKTeUXW9wWmV0F1zibe6EdOzgfNi3XzD/nW+iBE=
     user_permissions: []
     username: Dima
   model: auth.user
   pk: 1
+- fields:
+    date_joined: 2015-04-07 14:07:57+00:00
+    email: 'willy.schmidt90@gmail.com'
+    first_name: ''
+    groups: []
+    is_active: true
+    is_staff: true
+    is_superuser: true
+    last_login: 2015-04-07 14:09:10.752441+00:00
+    last_name: ''
+    password: pbkdf2_sha256$12000$DsUEOFDAUSAs$mIIMPTeJ8yvtAPESZT0eR4Ov74gvhDRS5y6Btx81Nzk=
+    user_permissions: []
+    username: Willy
+  model: auth.user
+  pk: 2
+
+
+#### pages
+- fields:
+    path: copyright
+    title: Ver\xF6ffentlichung und Urheberrechte
+    content: change me
+    active: true
+  model: beratung_erfurt.page
+  pk: 1
+
+- fields:
+    path: impress
+    title: Impressum
+    content: change me
+    active: true
+  model: beratung_erfurt.page
+  pk: 2
+
+#### texts
+
+
+- fields:
+    key: private:title
+    content: change me
+  model: beratung_erfurt.text
+  pk: 1
+
+- fields:
+    key: private:info_text
+    content: change me
+  model: beratung_erfurt.text
+  pk: 2
+
+- fields:
+    key: private:honorar
+    content: change me
+  model: beratung_erfurt.text
+  pk: 3
+
+- fields:
+    key: private:context
+    content: change me
+  model: beratung_erfurt.text
+  pk: 4
+
+- fields:
+    key: private:contact
+    content: change me
+  model: beratung_erfurt.text
+  pk: 5
+
+- fields:
+    key: company:title
+    content: change me
+  model: beratung_erfurt.text
+  pk: 6
+
+- fields:
+    key: company:info_text
+    content: change me
+  model: beratung_erfurt.text
+  pk: 7
+
+- fields:
+    key: company:honorar
+    content: change me
+  model: beratung_erfurt.text
+  pk: 8
+
+- fields:
+    key: company:context
+    content: change me
+  model: beratung_erfurt.text
+  pk: 9
+
+- fields:
+    key: company:contact
+    content: change me
+  model: beratung_erfurt.text
+  pk: 10
