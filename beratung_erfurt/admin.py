@@ -40,10 +40,14 @@ class PageAdmin(admin.ModelAdmin):
   list_display = (
     'title',
     'path',
-    'content',
+    '_content',
     'active',
-    # 'active_toggle'
     )
+
+
+  _content = lambda self, obj: obj.content
+  _content.allow_tags = True
+  _content.short_description = Page._meta.get_field_by_name("content")[0].verbose_name
 
   list_filter = ['active']
 
@@ -52,8 +56,12 @@ class PageAdmin(admin.ModelAdmin):
 class TextAdmin(admin.ModelAdmin):
   list_display = (
     'key',
-    'content',
+    '_content',
     )
+
+  _content = lambda self, obj: obj.content
+  _content.allow_tags = True
+  _content.short_description = Text._meta.get_field_by_name("content")[0].verbose_name
 
 @register(Image)
 class ImageAdmin(admin.ModelAdmin):
@@ -66,7 +74,20 @@ class ImageAdmin(admin.ModelAdmin):
 class SubPageAdmin(admin.ModelAdmin):
   list_display = (
     'key',
-    'info',
-    'cause',
-    'solution',
+    '_info',
+    '_cause',
+    '_solution',
     )
+
+
+  _info = lambda self, obj: obj.info
+  _info.allow_tags = True
+  _info.short_description = SubPage._meta.get_field_by_name("info")[0].verbose_name
+
+  _cause = lambda self, obj: obj.cause
+  _cause.allow_tags = True
+  _cause.short_description = SubPage._meta.get_field_by_name("cause")[0].verbose_name
+
+  _solution = lambda self, obj: obj.solution
+  _solution.allow_tags = True
+  _solution.short_description = SubPage._meta.get_field_by_name("solution")[0].verbose_name
