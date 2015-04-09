@@ -6,6 +6,7 @@
   <title>{%block title%}{%if title%}{{ title }}{%else%}Beratung Erfurt{%endif%}{%endblock%}</title>
 
   {%block head%}{%endblock%}
+  <link rel="shortcut icon" href="{{ settings.STATIC_URL }}images/favicon.ico" />
 </head>
 <body>
   <div id="wrap">
@@ -19,9 +20,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">
-            <!-- <img src="/{{settings.MEDIA_URL}}images/logo.png" height = "47px" id="logo"/> -->
-            BE
+          <a class="navbar-brand logo" href="/">
+            <img src="/{{settings.MEDIA_URL}}images/logo.png" height = "47px" id="logo"/>
           </a>
         </div>
 

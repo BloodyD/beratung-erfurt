@@ -43,3 +43,10 @@ html, body {
   font-size: 11pt;
   padding: 10px 20px;
 }
+
+
+.logo {
+  padding: 0px !important;
+  margin-right: 15px !important;
+  margin-left: 15px !important;
+}
