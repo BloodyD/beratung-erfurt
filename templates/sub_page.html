@@ -3,7 +3,7 @@
 {% block content %}
 
 <div class="row">
-  <div class="col-sm-12 alert alert-info">
+  <div class="col-sm-offset-2 col-sm-8 alert alert-info">
   {% autoescape off %}
     {{ info_text }}
   {% endautoescape %}
@@ -11,15 +11,19 @@
 </div>
 
 <div class="row">
-  <div class="col-sm-6 alert alert-danger">
-    {% autoescape off %}
-      {{ cause_text }}
-    {% endautoescape %}
+  <div class="col-sm-6">
+    <div class="alert alert-danger">
+      {% autoescape off %}
+        {{ cause_text }}
+      {% endautoescape %}
+    </div>
   </div>
-  <div class="col-sm-6 alert alert-success">
-    {% autoescape off %}
-      {{ solution_text }}
-    {% endautoescape %}
+  <div class="col-sm-6">
+    <div class="alert alert-success">
+      {% autoescape off %}
+        {{ solution_text }}
+      {% endautoescape %}
+    </div>
   </div>
 </div>
 
