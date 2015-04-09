@@ -35,6 +35,7 @@ class Image(models.Model):
 
 class SubPage(models.Model):
   key = models.CharField(verbose_name = "Key", max_length = 255)
+  title = models.CharField(verbose_name = "Titel", max_length = 255)
   info = models.TextField(verbose_name = "Info")
   cause = models.TextField(verbose_name = "Ursache")
   solution = models.TextField(verbose_name = "Lösung")

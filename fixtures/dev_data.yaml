@@ -116,6 +116,7 @@
 
 - fields:
     key: private:stress
+    title: change me
     info: change me
     cause: change me
     solution: change me
@@ -124,6 +125,7 @@
 
 - fields:
     key: private:self_esteem
+    title: change me
     info: change me
     cause: change me
     solution: change me
@@ -132,6 +134,7 @@
 
 - fields:
     key: private:desicion_making
+    title: change me
     info: change me
     cause: change me
     solution: change me
@@ -140,6 +143,7 @@
 
 - fields:
     key: private:everyday_fears
+    title: change me
     info: change me
     cause: change me
     solution: change me
@@ -148,6 +152,7 @@
 
 - fields:
     key: private:relationship
+    title: change me
     info: change me
     cause: change me
     solution: change me
@@ -156,6 +161,7 @@
 
 - fields:
     key: private:consulting
+    title: change me
     info: change me
     cause: change me
     solution: change me
@@ -164,6 +170,7 @@
 
 - fields:
     key: company:employee_satisfaction
+    title: change me
     info: change me
     cause: change me
     solution: change me
@@ -172,6 +179,7 @@
 
 - fields:
     key: company:marketing
+    title: change me
     info: change me
     cause: change me
     solution: change me
@@ -180,6 +188,7 @@
 
 - fields:
     key: company:customer_satisfaction
+    title: change me
     info: change me
     cause: change me
     solution: change me
@@ -188,6 +197,7 @@
 
 - fields:
     key: company:consulting
+    title: change me
     info: change me
     cause: change me
     solution: change me

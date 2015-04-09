@@ -32,12 +32,14 @@ def sub_page(key):
   try:
     subpage = SubPage.objects.get(key = key)
     return {
+      "page_title": subpage.title,
       "info_text": subpage.info,
       "cause_text": subpage.cause,
       "solution_text": subpage.solution,
     }
   except SubPage.DoesNotExist:
     return {
+      "page_title": "Create SubPage with key <b>{}</b>".format(key),
       "info_text": "Create SubPage with key <b>{}</b>".format(key),
       "cause_text": "Create SubPage with key <b>{}</b>".format(key),
       "solution_text": "Create SubPage with key <b>{}</b>".format(key),

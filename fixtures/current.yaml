@@ -224,7 +224,8 @@
     solution: "<p><b>Welche <u>Unterst\xFCtzung</u> findest du hier?</b>\r\n<ul><li>Aufkl\xE4\
       rung \xFCber die Entstehung & Wirkung von Stress</li>\r\n<li>Hilfe aus stressigen\
       \ Situationen</li>\r\n<li>Coping f\xFCr die Zukunft: Damit du auch in Zukunft\
-      \ f\xFCr stressige Situationen gewappnet bist</li></ul></p>\r\n"}
+      \ f\xFCr stressige Situationen gewappnet bist</li></ul></p>\r\n", title: change
+      me}
   model: beratung_erfurt.subpage
   pk: 1
 - fields: {cause: "<p>Problematisch wird es, sobald das Selbstbewusstsein in eine\
@@ -250,7 +251,7 @@
       r eine realistischere Selbstwahrnehmung</li>\r\n<li>Hilfe zur Steigerung des\
       \ Selbstbewusstseins</li>\r\n<li>Coping f\xFCr die Zukunft: Auch in Zukunft\
       \ sollen Referate, Bewerbungsgespr\xE4che, Verkaufssituationen, Telefonate etc.\
-      \ kein Problem mehr darstellen</li></ul></p>\r\n"}
+      \ kein Problem mehr darstellen</li></ul></p>\r\n", title: change me}
   model: beratung_erfurt.subpage
   pk: 2
 - fields: {cause: "<p>Kritisch wird es nur dann, wenn bereits <b>einfache Entscheidungen\
@@ -276,34 +277,38 @@
       \ Studiums- oder Berufswahl, allgemeiner Neuorientierung)</small> inkl. geeigneter\
       \ Diagnostik</li>\r\n<li>Coping f\xFCr die Zukunft: Hilfe f\xFCr Bew\xE4ltigung\
       \ neuer Konflikte/Problemstellungen</li></ul>\r\n</p>\r\n<br>\r\n<br> \r\n<p\
-      \  align=\"center\"><b>- effektive Entscheidungsberatung -</b></p>"}
+      \  align=\"center\"><b>- effektive Entscheidungsberatung -</b></p>", title: change
+      me}
   model: beratung_erfurt.subpage
   pk: 3
-- fields: {cause: change me, info: change me, key: 'private:everyday_fears', solution: change
-      me}
+- fields: {cause: change me, info: "<p>Mithilfe des Gef\xFChls \"Angst\" <b>reagiert\
+      \ der K\xF6rper</b> auf eine vorhandene oder angenommene <b>bedrohliche Situation</b>.\
+      \ Dies ist im Grunde sinnvoll, da dadurch dieser Situation deutlich mehr Aufmerksamkeit\
+      \ geschenkt wird und eine angemessene Reaktion gezeigt werden kann.</p>", key: 'private:everyday_fears',
+    solution: change me, title: change me}
   model: beratung_erfurt.subpage
   pk: 4
 - fields: {cause: change me, info: change me, key: 'private:relationship', solution: change
-      me}
+      me, title: change me}
   model: beratung_erfurt.subpage
   pk: 5
 - fields: {cause: change me, info: change me, key: 'private:consulting', solution: change
-      me}
+      me, title: change me}
   model: beratung_erfurt.subpage
   pk: 6
 - fields: {cause: change me, info: change me, key: 'company:employee_satisfaction',
-    solution: change me}
+    solution: change me, title: change me}
   model: beratung_erfurt.subpage
   pk: 7
 - fields: {cause: change me, info: change me, key: 'company:marketing', solution: change
-      me}
+      me, title: change me}
   model: beratung_erfurt.subpage
   pk: 8
 - fields: {cause: change me, info: change me, key: 'company:customer_satisfaction',
-    solution: change me}
+    solution: change me, title: change me}
   model: beratung_erfurt.subpage
   pk: 9
 - fields: {cause: change me, info: change me, key: 'company:consulting', solution: change
-      me}
+      me, title: change me}
   model: beratung_erfurt.subpage
   pk: 10

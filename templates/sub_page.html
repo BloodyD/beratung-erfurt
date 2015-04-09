@@ -2,35 +2,40 @@
 
 {% block content %}
 
-<div class="row">
-  <div class="col-sm-offset-2 col-sm-8 alert alert-info">
-  {% autoescape off %}
-    {{ info_text }}
-  {% endautoescape %}
-  </div>
-</div>
+  <div class="panel panel-primary">
+    <div class="panel-heading">{{ page_title }}</div>
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-sm-offset-2 col-sm-8 alert alert-info">
+        {% autoescape off %}
+          {{ info_text }}
+        {% endautoescape %}
+        </div>
+      </div>
 
-<div class="row">
-  <div class="col-sm-6">
-    <div class="alert alert-danger">
-      {% autoescape off %}
-        {{ cause_text }}
-      {% endautoescape %}
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="alert alert-danger">
+            {% autoescape off %}
+              {{ cause_text }}
+            {% endautoescape %}
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="alert alert-success">
+            {% autoescape off %}
+              {{ solution_text }}
+            {% endautoescape %}
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <a href=".." class="btn btn-success pull-right">Zurück</a>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="col-sm-6">
-    <div class="alert alert-success">
-      {% autoescape off %}
-        {{ solution_text }}
-      {% endautoescape %}
-    </div>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-sm-12">
-    <a href=".." class="btn btn-success pull-right">Zurück</a>
-  </div>
-</div>
 
 {% endblock content %}
