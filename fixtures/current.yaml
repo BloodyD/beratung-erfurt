@@ -1,0 +1,209 @@
+- fields: {active: true, content: "Produkte, Dienstleistungen, Bilder, Texte und angebotene\
+      \ Softwaredownloads geh\xF6ren ausschlie\xDFlich Beratung-Erfurt oder Dritten,\
+      \ denen ausdr\xFCcklich eine Erlaubnis zur Nutzung erteilt wurde. F\xFCr eine\
+      \ kommerzielle Nutzung bedarf es einer schriftlichen Genehmigung, soweit nichts\
+      \ Anderweitiges vereinbart worden ist.<br>\r\n<br>\r\nSollte einer Ihrer Verwendungen\
+      \ (z. B.: lizenzfreie Icons oder Bilder) die Rechte von Beratung-Erfurt ber\xFC\
+      hren, ist eine Nutzung erlaubt wenn:<br>\r\n1. Bei der Bezugnahme auf ein Beratung-Erfurt\
+      \ Produkt, Dienstleistung oder anderes, der Hinweis erfolgt: \u201EBereitgestellt\
+      \ von Beratung-Erfurt\u201C<br>\r\n2. Sie eine Verlinkung auf Beratung-Erfurt.de\
+      \ vornehmen<br>\r\n<br>\r\nSollten Sie noch Fragen bzgl. der Nutzung von urheberrechtlich\
+      \ gesch\xFCtzten Material von Beratung-Erfurt haben oder Ihre Verwendung einen\
+      \ kommerziellen Zweck verfolgen, so schicken Sie bitte eine Nachricht mit allen\
+      \ dazugeh\xF6rigen Materialien, Texten und Bildern an: <b><a href=\"mailto:admin@beratung-erfurt.de\"\
+      >admin@beratung-erfurt.de</a></b>\r\n", path: copyright, title: "Ver\xF6ffentlichung\
+      \ und Urheberrechte"}
+  model: beratung_erfurt.page
+  pk: 1
+- fields: {active: true, content: "Willy Schmidt<br>\r\nSpittelgartenstra\xDFe 25<br>\r\
+      \n99089 Erfurt<br>\r\n<br>\r\n<b>Telefon:</b> 0361/43037062 (Mo.-Fr.: 10 - 16\
+      \ Uhr)<br>\r\n<b>e-Mail:</b> <a href=\"mailto:admin@valutachange.de\">admin@beratung-erfurt.de</a><br>\r\
+      \n<br>\r\n<u>Steuernummer:</u> <br>\r\n<br>\r\n<b><u><h4>Copyright</b></u></h4>\r\
+      \n\r\nAlle Grafiken, Scripte und Texte von Beratung-Erfurt.de unterliegen, soweit\
+      \ nicht anders angegeben, dem Copyright von Beratung-Erfurt.de.<br>\r\nUnautorisierter\
+      \ Gebrauch und Versto\xDF gegen das Copyright wird strafrechtlich verfolgt.<br></p>",
+    path: impress, title: Impressum}
+  model: beratung_erfurt.page
+  pk: 2
+- fields: {content: "\"Es sind nicht nur die eigenen F\xFC\xDFe, die uns tragen!\"",
+    key: 'private:title'}
+  model: beratung_erfurt.text
+  pk: 1
+- fields: {content: "<p>Jeder steht einmal vor einer <b>scheinbar unl\xF6sbaren Situation</b>.\
+      \ Man verliert schnell die Nerven, ist ungl\xFCcklich und sieht <b>keinen Ausweg</b>\
+      \ - doch den gibt es immer!</p>\r\n<p>An dieser Stelle wird dir <b>Unterst\xFC\
+      tzung</b> geboten, deinen - f\xFCr dich individuell - richtigen Weg zu finden,\
+      \ welcher dir auch in Zukunft dabei helfen soll, erneuten <b>Problemen standzuhalten</b>.</p>",
+    key: 'private:info_text'}
+  model: beratung_erfurt.text
+  pk: 2
+- fields: {content: "<p>W\xE4hrend der Kontaktaufnahme werden Ansatzpunkte f\xFCr\
+      \ eine Beratung, sowie m\xF6gliche Vorgangsweisen besprochen.</p>\r\n<p>Die\
+      \ Vergabe weiterer Termine orientiert sich immer am Einzelfall. Die Dauer einer\
+      \ Beratungseinheit betr\xE4gt <b>60 Minuten</b>. Diese werden wie folgt abgerechnet:</p>\r\
+      \n<br>\r\n<table border=\"0\" align=\"center\" width=\"40%\">\r\n  <tr>\r\n\
+      \    <td><b>Einzel- & Paarberatung:</b></td>\r\n    <td><b><font color=\"#088A08\"\
+      >39 Euro<small>/h</small></font></b></td>\r\n  </tr>\r\n  <tr>\r\n    <td><b>ab\
+      \ 5 Beratungstermine:</b></td>\r\n    <td><b><font color=\"#088A08\">29 Euro<small>/h</small></font></b></td>\r\
+      \n  </tr>\r\n</table>\r\n<br>\r\n<hr>\r\n<p><small>Studenten erhalten einen\
+      \ <b>Rabatt von 50%</b>.<br>\r\nGemeinn\xFCtzige Organisationen k\xF6nnen eine\
+      \ <b>kostenlose Beratung beantragen</b>.</small></p>", key: 'private:honorar'}
+  model: beratung_erfurt.text
+  pk: 3
+- fields: {content: "<p>Beratungen k\xF6nnen wie folgt abgehalten werden:\r\n<ul><li><b>E-Mail</b>\
+      \ <small>(Gespr\xE4ch)</small></li>\r\n<li><b>Telefon</b></li>\r\n<li><b>pers\xF6\
+      nlich</b> <small>(Erfurt und Umgebung)</small></li></ul></p>\r\n\r\n\r\n\r\n",
+    key: 'private:context'}
+  model: beratung_erfurt.text
+  pk: 4
+- fields: {content: "<p>Kontaktformular einf\xFCgen mit:<br>\r\n<b>e-Mail:<br>\r\n\
+      Anliegen:<br>\r\nbevorzugter Beratungskontext:<br>\r\nTerminw\xFCnsche:<br>\r\
+      \n<small>(bevorzugte Uhrzeiten, Wochentage)</small></b>\r\n\r\n", key: 'private:contact'}
+  model: beratung_erfurt.text
+  pk: 5
+- fields: {content: '"Umso steiniger der Weg, umso wertvoller das Ziel."', key: 'company:title'}
+  model: beratung_erfurt.text
+  pk: 6
+- fields: {content: "<p>In einem Unternehmen wird sich h\xE4ufig an quantitativen\
+      \ Daten <small>(z. B. Bilanzen, Ausfallquoten oder Kundenzuwachs)</small> orientiert.\
+      \ <b>Qualitative Informationen</b> <small>(z. B. \"Warum kommt es zu dieser\
+      \ Ausfallquote?\" oder \"Ist der Kundenzuwachs wirklich auf die Werbung zur\xFC\
+      ckzuf\xFChren?\")</small> hingegen stehen oftmals im Hintergrund. Dabei sind\
+      \ es gerade diese, welche wichtige Aufschl\xFCsse liefern und <b>gezielte, kosteng\xFC\
+      nstige Interventionen</b> erlauben. Unabh\xE4ngig davon sind qualitative Informationen\
+      \ unabdingbar f\xFCr ein <b>innovatives Unternehmen</b>.</p>\r\n<p>An dieser\
+      \ Stelle erhalten Sie eine <b>individuell</b> f\xFCr ihr Unternehmen zugeschnittene\
+      \ <b>Beratung und Unterst\xFCtzung</b>, welche sich nicht nur auf das \"Hier\
+      \ und Jetzt\" sondern auch auf eine <b>nachhaltige Entwicklung</b> konzentriert.</p>",
+    key: 'company:info_text'}
+  model: beratung_erfurt.text
+  pk: 7
+- fields: {content: "<p>W\xE4hrend des kostenlosen Erstgespr\xE4chs werden Ansatzpunkte\
+      \ f\xFCr eine Beratung, sowie m\xF6gliche Vorgangsweisen besprochen.</p>\r\n\
+      <p>Die Vergabe weiterer Termine orientiert sich immer am Einzelfall. Die Dauer\
+      \ einer Beratungseinheit betr\xE4gt <b>60 Minuten</b>. Diese werden wie folgt\
+      \ abgerechnet:</p>\r\n<br>\r\n<table border=\"0\" align=\"center\" width=\"\
+      60%\">\r\n  <tr>\r\n    <td><b>Beratung:</b></td>\r\n    <td><b><font color=\"\
+      #088A08\">39 Euro<small>/h</font></small></b></td>\r\n  </tr>\r\n  <tr>\r\n\
+      \    <td><b>Ausarbeitung:</b></td>\r\n    <td><b><font color=\"#088A08\">45\
+      \ Euro<small>/h</font></small></b></td>\r\n  </tr>\r\n  <tr>\r\n    <td><b>ab\
+      \ 15 Stunden:</b></td>\r\n    <td><b><font color=\"#088A08\">10% Rabatt auf\
+      \ Gesamtkosten<small>/h</small></font></b></td>\r\n  </tr>\r\n</table>\r\n<br>\r\
+      \n<hr>\r\n<p><small>StartUp-Unternehmen erhalten einen <b>Rabatt von 50%</b>.<br>\r\
+      \nGemeinn\xFCtzige Organisationen k\xF6nnen eine <b>kostenlose Beratung beantragen</b>.</small></p>",
+    key: 'company:honorar'}
+  model: beratung_erfurt.text
+  pk: 8
+- fields: {content: "<p>Beratungen k\xF6nnen wie folgt abgehalten werden:\r\n<ul><li><b>Vorort</b>\
+      \ <small>(Erfurt und Umgebung)\r\n</small></li><li><b>E-Mail</b> <small>(Gespr\xE4\
+      ch, Videokonferenz)</small></li>\r\n<li><b>Telefon</b></li></ul></p>", key: 'company:context'}
+  model: beratung_erfurt.text
+  pk: 9
+- fields: {content: "<p>Kontaktformular einf\xFCgen mit:<br>\r\n<b>e-Mail:<br>\r\n\
+      Telefon:<br>\r\n<small>(wenn R\xFCckruf erw\xFCnscht)</small><br>\r\nFirma:<br>\r\
+      \nAnliegen:<br>\r\nbevorzugter Beratungskontext:<br>\r\nTerminw\xFCnsche:<br>\r\
+      \n<small>(bevorzugte Uhrzeiten, Wochentage)</small></b>", key: 'company:contact'}
+  model: beratung_erfurt.text
+  pk: 10
+- fields: {content: "<p><b>Stressbew\xE4ltigung</b></p>\r\n<p>Ein wichtiger Mechanismus\
+      \ unseres K\xF6rpers zur Bew\xE4ltigung von Problemen ist eine kurzzeitige Stressreaktion\
+      \ - Doch was, wenn diese zu einer dauerhaften Belastung wird? Lass es uns beseitigen...</p>",
+    key: 'private:stress'}
+  model: beratung_erfurt.text
+  pk: 11
+- fields: {content: "<p><b>Selbstbewusstsein</b></p>\r\n<p>Ein starkes & realistisches\
+      \ Selbstbewusstsein ist der Grundbaustein innerer Zufriedenheit und ein wesentlicher\
+      \ Bestandteil erfolgreicher Problembew\xE4ltigung. Lass es uns st\xE4rken...</p>",
+    key: 'private:self esteem'}
+  model: beratung_erfurt.text
+  pk: 12
+- fields: {content: "<p><b>\"Alltags\xE4ngste\"</b></p>\r\n<p>\xC4ngste sind ein st\xE4\
+      ndiger Begleiter in unserem Leben und durchaus sinnvoll. Doch was, wenn diese\
+      \ zu einem ernsthaften Problem werden? Lass sie uns gemeinsam besiegen...</p>",
+    key: 'private:everyday fears'}
+  model: beratung_erfurt.text
+  pk: 13
+- fields: {content: "<p><b>Beziehung</b></p>\r\n<p>Probleme mit dem Partner oder Liebeskummer\
+      \ und kein Ratgeber will so richtig helfen? Lass uns gemeinsam dieses einstmals\
+      \ gute Gef\xFChl zur\xFCckholen...</p>", key: 'private:relationship'}
+  model: beratung_erfurt.text
+  pk: 14
+- fields: {content: "<p><b>Entscheidungsfindung</b></p>\r\n<p>Nahezu jeden Tag treffen\
+      \ wir - bewusst oder unbewusst - Entscheidungen, die unser Leben mehr oder weniger\
+      \ beeinflussen. Doch was, wenn dies nur noch schwer gelingt oder eine schwierige\
+      \ Entscheidungen ansteht? Was ist richtig? Lass es uns gemeinsam herausfinden...</p>",
+    key: 'private:desicion making'}
+  model: beratung_erfurt.text
+  pk: 15
+- fields: {content: "<p><b>Allgemeine Beratung</b></p>\r\n<p>Du suchst allgemein nach\
+      \ Rat oder Unterst\xFCtzung? Beides findest du hier: </p>", key: 'private:consulting'}
+  model: beratung_erfurt.text
+  pk: 16
+- fields: {content: "<p><b>Marketing</b></p>\r\n<p>Ein erfolgreiches Marketingkonzept\
+      \ umfasst nicht nur die effektive Bekanntmachung eines Produktes oder einer\
+      \ Dienstleistung, sondern auch den Aufbau und die Stabilisierung eines positiven\
+      \ Images sowie einer positiven Reputation. Lassen Sie sich bez\xFCglich einer\
+      \ effizienten Marketingstrategie beraten und ein individuell f\xFCr ihr Unternehmen\
+      \ zugeschnittenes Marketingkonzept entwickeln.</p>", key: 'company:marketing'}
+  model: beratung_erfurt.text
+  pk: 17
+- fields: {content: "<p><b>Mitarbeiterzufriedenheit</b></p>\r\n<p>Mitarbeiter sind\
+      \ die wohl wertvollste Ressource in ihrem Unternehmen. Mit Hilfe ihrer F\xE4\
+      higkeiten und Fertigkeiten stellen sie in Kombination mit entsprechender Motivation\
+      \ eine ma\xDFgebliche Voraussetzung f\xFCr eine erfolgreiche Produktion oder\
+      \ Dienstleistung dar. Informieren Sie sich \xFCber m\xF6gliche Optimierungsans\xE4\
+      tze und einer damit einhergehenden nachhaltigen Effizienzsteigerung.</p>", key: 'company:employee
+      satisfaction'}
+  model: beratung_erfurt.text
+  pk: 18
+- fields: {content: "<p><b>Kundenzufriedenheit</b></p>\r\n<p>Nicht nur die Zufriedenheit\
+      \ der Kunden, sondern auch die der Vertragspartner spiegeln das Image sowie\
+      \ die Reputation des Unternehmens wieder. Desweiteren ist eine zufriedene Kundschaft\
+      \ nachweislich treuer an die Produkte oder Dienstleistung des Unternehmens gebunden\
+      \ als eine Unzufriedene. Mit Hilfe gezielt eingesetzter diagnostischer Mittel\
+      \ k\xF6nnen Sie die Zufriedenheit ihrer Kunden und Partner erheben, Schwachstellen\
+      \ aufdecken und eine Optimierungsempfehlung erhalten. Zus\xE4tzlich wird die\
+      \ Betreuung eines Optimierungsprozesses angeboten.</p>", key: 'company:customer
+      satisfaction'}
+  model: beratung_erfurt.text
+  pk: 19
+- fields: {content: "<p><b>Allgemeine Beratung</b></p>\r\n<p>Sie suchen weitere Beratung\
+      \ und Unterst\xFCtzung in den Bereichen Innovation <small>(z. B. Brainstorming)</small>,\
+      \ Personalrekrutierung, F\xFChrungstrainings o. \xE4.? Kontaktieren Sie mich\
+      \ hier: </p>", key: 'company:consulting'}
+  model: beratung_erfurt.text
+  pk: 20
+- fields: {image: image_upload/Button_Alle_Systeme_1.png, key: 'company:img:employee
+      satisfaction'}
+  model: beratung_erfurt.image
+  pk: 1
+- fields: {image: image_upload/Button_Alle_Systeme.png, key: 'company:img:customer
+      satisfaction'}
+  model: beratung_erfurt.image
+  pk: 2
+- fields: {image: image_upload/Button_Alle_Systeme_2.png, key: 'company:img:marketing'}
+  model: beratung_erfurt.image
+  pk: 3
+- fields: {image: image_upload/Button_Alle_Systeme_3.png, key: 'company:img:consulting'}
+  model: beratung_erfurt.image
+  pk: 4
+- fields: {image: image_upload/Button_Alle_Systeme_4.png, key: 'private:img:consulting'}
+  model: beratung_erfurt.image
+  pk: 5
+- fields: {image: image_upload/Button_Alle_Systeme_5.png, key: 'private:img:desicion
+      making'}
+  model: beratung_erfurt.image
+  pk: 6
+- fields: {image: image_upload/Button_Alle_Systeme_6.png, key: 'private:img:relationship'}
+  model: beratung_erfurt.image
+  pk: 7
+- fields: {image: image_upload/Button_Alle_Systeme_7.png, key: 'private:img:everyday
+      fears'}
+  model: beratung_erfurt.image
+  pk: 8
+- fields: {image: image_upload/Button_Alle_Systeme_8.png, key: 'private:img:self esteem'}
+  model: beratung_erfurt.image
+  pk: 9
+- fields: {image: image_upload/Button_Alle_Systeme_9.png, key: 'private:img:stress'}
+  model: beratung_erfurt.image
+  pk: 10
