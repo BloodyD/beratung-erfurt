@@ -74,7 +74,7 @@ class ImageAdmin(admin.ModelAdmin):
 class SubPageAdmin(admin.ModelAdmin):
   list_display = (
     'key',
-    'title',
+    # 'title',
     '_info',
     '_cause',
     '_solution',
