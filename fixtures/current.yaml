@@ -50,10 +50,10 @@
       \ <b>kostenlose Beratung beantragen</b>.</small></p>", key: 'private:honorar'}
   model: beratung_erfurt.text
   pk: 3
-- fields: {content: "<p>Beratungen k\xF6nnen wie folgt abgehalten werden:\r\n<ul><li><b>E-Mail</b>\
-      \ <small>(Gespr\xE4ch)</small></li>\r\n<li><b>Telefon</b></li>\r\n<li><b>pers\xF6\
-      nlich</b> <small>(Erfurt und Umgebung)</small></li></ul></p>\r\n\r\n\r\n\r\n",
-    key: 'private:context'}
+- fields: {content: "<p>Beratungen k\xF6nnen wie folgt abgehalten werden:\r\n<ul><li><b>Online</b>\
+      \ <small>(E-Mail, Skypegespr\xE4ch)</small></li>\r\n<li><b>Telefon</b></li>\r\
+      \n<li><b>pers\xF6nlich</b> <small>(Erfurt und Umgebung)</small></li></ul></p>\r\
+      \n\r\n\r\n\r\n", key: 'private:context'}
   model: beratung_erfurt.text
   pk: 4
 - fields: {content: "<p>Kontaktformular einf\xFCgen mit:<br>\r\n<b>e-Mail:<br>\r\n\
@@ -95,8 +95,8 @@
   model: beratung_erfurt.text
   pk: 8
 - fields: {content: "<p>Beratungen k\xF6nnen wie folgt abgehalten werden:\r\n<ul><li><b>Vorort</b>\
-      \ <small>(Erfurt und Umgebung)\r\n</small></li><li><b>E-Mail</b> <small>(Gespr\xE4\
-      ch, Videokonferenz)</small></li>\r\n<li><b>Telefon</b></li></ul></p>", key: 'company:context'}
+      \ <small>(Erfurt und Umgebung)</small></li>\r\n<li><b>Online</b> <small>(E-Mail,\
+      \ Videokonferenz)</small></li>\r\n<li><b>Telefon</b></li></ul></p>", key: 'company:context'}
   model: beratung_erfurt.text
   pk: 9
 - fields: {content: "<p>Kontaktformular einf\xFCgen mit:<br>\r\n<b>e-Mail:<br>\r\n\
@@ -207,16 +207,76 @@
 - fields: {image: image_upload/Button_Alle_Systeme_9.png, key: 'private:img:stress'}
   model: beratung_erfurt.image
   pk: 10
-- fields: {cause: change me, info: change me, key: 'private:stress', solution: change
-      me}
+- fields: {cause: "<p>Kommt man nun aus diesem \"gestressten Gef\xFChl\" nicht mehr\
+      \ heraus, kann dies zu einer <b>verminderten Lebensfreude</b> und im sp\xE4\
+      teren Verlauf sogar zu dem bekannten <b>Burnout-Syndrom</b> f\xFChren.</p><br>\r\
+      \n<p><b>Die <u>Ursachen</u> hierf\xFCr sind weitreichend:</b>\r\n<ul><li>starke\
+      \ Motivationslosigkeit</li>\r\n<li>tats\xE4chliche \xDCberlastung</li>\r\n<li>ung\xFC\
+      nstige Einstellung</li></ul></p>\r\n<p  align=\"right\">- um ein paar Wenige\
+      \ zu benennen.</p>", info: "<p>Stress entsteht, einfach formuliert, bei <b>\xDC\
+      berforderung der eigenen Kapazit\xE4ten</b> - sei es leistungsbedingt oder emotional.\
+      \ Mithilfe der Aussch\xFCttung von Stresshormonen versucht der K\xF6rper nun\
+      \ seine eigenen Grenzen zu \xFCberwinden und die \xFCberfordernde Situation\
+      \ zu meistern. Dabei unterscheidet man grundlegend <b>Eustress</b> <small>(positiver\
+      \ Stress; z. B. Planung der eigenen Party)</small> von <b>Disstress</b> <small>(negativer\
+      \ Stress; z. B. bei der Vorbereitung auf eine Pr\xFCfung)</small>. Lediglich\
+      \ letzteres wird in der Regel als belastend empfunden.</p>", key: 'private:stress',
+    solution: "<p><b>Welche <u>Unterst\xFCtzung</u> findest du hier?</b>\r\n<ul><li>Aufkl\xE4\
+      rung \xFCber die Entstehung & Wirkung von Stress</li>\r\n<li>Hilfe aus stressigen\
+      \ Situationen</li>\r\n<li>Coping f\xFCr die Zukunft: Damit du auch in Zukunft\
+      \ f\xFCr stressige Situationen gewappnet bist</li></ul></p>\r\n"}
   model: beratung_erfurt.subpage
   pk: 1
-- fields: {cause: change me, info: change me, key: 'private:self_esteem', solution: change
-      me}
+- fields: {cause: "<p>Problematisch wird es, sobald das Selbstbewusstsein in eine\
+      \ <b>extreme Richtung</b> <small>(besonders stark oder besonders schwach)</small>\
+      \ ausgepr\xE4gt ist. Bei einem \xFCbertrieben starken Selbstbewusstsein kann\
+      \ dies u. a. zu <b>geringerer sozialer Anerkennung</b> oder dem <b>Scheitern\
+      \ verschiedener Aufgabenstellungen</b> <small>(aufgrund zu hoher Erwartungen)</small>\
+      \ f\xFChren. Bei einem extrem schwachen Selbstbewusstsein hingegen kann dies\
+      \ u. a. zu <b>Problemen bei eigentlich selbstverst\xE4ndlichen bzw. einfachen\
+      \ Aufgaben</b> <small>(z. B. Telefonate oder Referate)</small> f\xFChren.</p><br>\r\
+      \n<p><b>Die <u>Ursachen</u> hierf\xFCr sind weitreichend:</b>\r\n<ul><li>negative\
+      \ Erfahrungen</li>\r\n<li>wenig/zu viel soziale Unterst\xFCtzung</li>\r\n<li>verzerrte\
+      \ Selbstwahrnehmung</li></ul></p>\r\n<p  align=\"right\">- um ein paar wenige\
+      \ zu benennen.</p>", info: "<p>Das Selbstbewusstsein bezeichnet das Bild eines\
+      \ Menschen \xFCber sich selbst, welches sich bereits in der fr\xFChen Kindheit\
+      \ entwickelt. Im Laufe des Lebens kann dieses durch viele Faktoren <small>(z.\
+      \ B. Erfahrungen und Ereignisse)</small> <b>bewusst</b> oder <b>unbewusst</b>\
+      \ im <b>positiven und negativen</b> Sinne ver\xE4ndert werden. Ein gesundes\
+      \ Selbstbewusstsein ist ein <b>wertvolles Schutzschild</b>, um die Probleme\
+      \ des Alltags meistern zu k\xF6nnen.</p>", key: 'private:self_esteem', solution: "<p><b>Welche\
+      \ <u>Unterst\xFCtzung</u> findest du hier?</b>\r\n<ul><li>Aufkl\xE4rung \xFC\
+      ber die Entstehung und Funktion von Selbstbewusstsein</li>\r\n<li>Hilfe f\xFC\
+      r eine realistischere Selbstwahrnehmung</li>\r\n<li>Hilfe zur Steigerung des\
+      \ Selbstbewusstseins</li>\r\n<li>Coping f\xFCr die Zukunft: Auch in Zukunft\
+      \ sollen Referate, Bewerbungsgespr\xE4che, Verkaufssituationen, Telefonate etc.\
+      \ kein Problem mehr darstellen</li></ul></p>\r\n"}
   model: beratung_erfurt.subpage
   pk: 2
-- fields: {cause: change me, info: change me, key: 'private:desicion_making', solution: change
-      me}
+- fields: {cause: "<p>Kritisch wird es nur dann, wenn bereits <b>einfache Entscheidungen\
+      \ schwer fallen</b>, <b>Probleme bei der Umsetzung</b> einer getroffenen Entscheidung\
+      \ auftreten <small>(diese z. B. immer wieder hinterfragt wird)</small>, <b>Schwierigkeiten\
+      \ beim Identifizieren</b> der f\xFCr sich selbst \"richtigen\" Entscheidung\
+      \ vorherrschen oder eine bereits getroffene und umgesetzte Entscheidung zu <b>anhaltenden\
+      \ Zweifeln</b> f\xFChrt.</p><br>\r\n<p><b>Die <u>Ursachen</u> hierf\xFCr sind\
+      \ weitreichend:</b>\r\n<ul><li>Motivationslosigkeit</li>\r\n<li>geringes Selbstbewusstsein</li>\r\
+      \n<li>Angst vor negativen Konsequenzen</li>\r\n<li>negative Erfahrungen in Hinsicht\
+      \ auf bereits getroffene Entscheidungen</li></ul></p>\r\n<p  align=\"right\"\
+      >- um ein paar wenige zu benennen.</p>", info: "<p>Eine Entscheidung erfolgt\
+      \ mithilfe von <b>subjektiven</b> und/oder <b>objektiven Kriterien</b>. Dabei\
+      \ flie\xDFen u. a. Erfahrungen fr\xFCherer Entscheidungen, der aktuelle Wissensstand,\
+      \ die momentane Gef\xFChlslage oder Ziele, Werte, Moral o. \xE4. mit ein. Je\
+      \ nach Art und Umfang der <b>erwarteten Konsequenz</b> <small>(\"Was esse ich\
+      \ heute?\" versus \"Wie soll mein sp\xE4teres Arbeitsleben aussehen?\")</small>\
+      \ werden eine unterschiedliche Anzahl von Kriterien in die Entscheidung einbezogen\
+      \ und erleichtern oder erschweren diese.</p>", key: 'private:desicion_making',
+    solution: "<p><b>Welche <u>Unterst\xFCtzung</u> findest du hier?</b><br><br>\r\
+      \n<ul><li>Aufkl\xE4rung \xFCber die Mechanismen eines Entscheidungsprozesses</li>\r\
+      \n<li>Begleitung in einer schwierigen Entscheidungsphase <small>(z. B. Ausbildungs-,\
+      \ Studiums- oder Berufswahl, allgemeiner Neuorientierung)</small> inkl. geeigneter\
+      \ Diagnostik</li>\r\n<li>Coping f\xFCr die Zukunft: Hilfe f\xFCr Bew\xE4ltigung\
+      \ neuer Konflikte/Problemstellungen</li></ul>\r\n</p>\r\n<br>\r\n<br> \r\n<p\
+      \  align=\"center\"><b>- effektive Entscheidungsberatung -</b></p>"}
   model: beratung_erfurt.subpage
   pk: 3
 - fields: {cause: change me, info: change me, key: 'private:everyday_fears', solution: change
