@@ -33,7 +33,7 @@ def register(*models, **kwargs):
 
 
 
-from beratung_erfurt.models import Page, Text, Image
+from beratung_erfurt.models import Page, Text, Image, SubPage
 
 @register(Page)
 class PageAdmin(admin.ModelAdmin):
@@ -60,4 +60,13 @@ class ImageAdmin(admin.ModelAdmin):
   list_display = (
     'key',
     'image',
+    )
+
+@register(SubPage)
+class SubPageAdmin(admin.ModelAdmin):
+  list_display = (
+    'key',
+    'info',
+    'cause',
+    'solution',
     )

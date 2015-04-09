@@ -1,7 +1,7 @@
 from django.shortcuts import get_object_or_404
 
 from utils.decorators import render_to
-from beratung_erfurt.models import Page, Text, Image
+from beratung_erfurt.models import Page, Text, Image, SubPage
 
 
 @render_to("index.html")
@@ -28,6 +28,20 @@ def img_url(key):
   except Image.DoesNotExist:
     return None
 
+def sub_page(key):
+  try:
+    subpage = SubPage.objects.get(key = key)
+    return {
+      "info_text": subpage.info,
+      "cause_text": subpage.cause,
+      "solution_text": subpage.solution,
+    }
+  except SubPage.DoesNotExist:
+    return {
+      "info_text": "Create SubPage with key <b>{}</b>".format(key),
+      "cause_text": "Create SubPage with key <b>{}</b>".format(key),
+      "solution_text": "Create SubPage with key <b>{}</b>".format(key),
+    }
 
 @render_to("private.html")
 def private(request):
@@ -74,5 +88,14 @@ def company(request):
     "urls": map(lambda key: key.replace(" ", "_"), keys),
   }
 
+
+@render_to("sub_page.html")
+def company_page(request, path):
+  return sub_page("company:" + path)
+
+
+@render_to("sub_page.html")
+def private_page(request, path):
+  return sub_page("private:" + path)
 
 from .errors import *

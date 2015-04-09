@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row">
+  <div class="col-sm-12 alert alert-info">
+  {% autoescape off %}
+    {{ info_text }}
+  {% endautoescape %}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6 alert alert-danger">
+    {% autoescape off %}
+      {{ cause_text }}
+    {% endautoescape %}
+  </div>
+  <div class="col-sm-6 alert alert-success">
+    {% autoescape off %}
+      {{ solution_text }}
+    {% endautoescape %}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    <a href=".." class="btn btn-success pull-right">Zurück</a>
+  </div>
+</div>
+
+{% endblock content %}

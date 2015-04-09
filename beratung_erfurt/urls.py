@@ -29,6 +29,9 @@ urlpatterns = patterns('',
     url(r'^private/$', 'beratung_erfurt.views.private', name = 'private'),
     url(r'^company/$', 'beratung_erfurt.views.company', name = 'company'),
 
+    url(r'^private/(?P<path>.+?)/$', 'beratung_erfurt.views.private_page', name = 'private_page'),
+    url(r'^company/(?P<path>.+?)/$', 'beratung_erfurt.views.company_page', name = 'company_page'),
+
 
     url(r'^admin/', include(admin.site.urls)),
 

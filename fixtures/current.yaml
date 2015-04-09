@@ -207,3 +207,43 @@
 - fields: {image: image_upload/Button_Alle_Systeme_9.png, key: 'private:img:stress'}
   model: beratung_erfurt.image
   pk: 10
+- fields: {cause: change me, info: change me, key: 'private:stress', solution: change
+      me}
+  model: beratung_erfurt.subpage
+  pk: 1
+- fields: {cause: change me, info: change me, key: 'private:self_esteem', solution: change
+      me}
+  model: beratung_erfurt.subpage
+  pk: 2
+- fields: {cause: change me, info: change me, key: 'private:desicion_making', solution: change
+      me}
+  model: beratung_erfurt.subpage
+  pk: 3
+- fields: {cause: change me, info: change me, key: 'private:everyday_fears', solution: change
+      me}
+  model: beratung_erfurt.subpage
+  pk: 4
+- fields: {cause: change me, info: change me, key: 'private:relationship', solution: change
+      me}
+  model: beratung_erfurt.subpage
+  pk: 5
+- fields: {cause: change me, info: change me, key: 'private:consulting', solution: change
+      me}
+  model: beratung_erfurt.subpage
+  pk: 6
+- fields: {cause: change me, info: change me, key: 'company:employee_satisfaction',
+    solution: change me}
+  model: beratung_erfurt.subpage
+  pk: 7
+- fields: {cause: change me, info: change me, key: 'company:marketing', solution: change
+      me}
+  model: beratung_erfurt.subpage
+  pk: 8
+- fields: {cause: change me, info: change me, key: 'company:customer_satisfaction',
+    solution: change me}
+  model: beratung_erfurt.subpage
+  pk: 9
+- fields: {cause: change me, info: change me, key: 'company:consulting', solution: change
+      me}
+  model: beratung_erfurt.subpage
+  pk: 10

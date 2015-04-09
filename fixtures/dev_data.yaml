@@ -111,3 +111,85 @@
     content: change me
   model: beratung_erfurt.text
   pk: 10
+
+#### subpages
+
+- fields:
+    key: private:stress
+    info: change me
+    cause: change me
+    solution: change me
+  model: beratung_erfurt.subpage
+  pk: 1
+
+- fields:
+    key: private:self_esteem
+    info: change me
+    cause: change me
+    solution: change me
+  model: beratung_erfurt.subpage
+  pk: 2
+
+- fields:
+    key: private:desicion_making
+    info: change me
+    cause: change me
+    solution: change me
+  model: beratung_erfurt.subpage
+  pk: 3
+
+- fields:
+    key: private:everyday_fears
+    info: change me
+    cause: change me
+    solution: change me
+  model: beratung_erfurt.subpage
+  pk: 4
+
+- fields:
+    key: private:relationship
+    info: change me
+    cause: change me
+    solution: change me
+  model: beratung_erfurt.subpage
+  pk: 5
+
+- fields:
+    key: private:consulting
+    info: change me
+    cause: change me
+    solution: change me
+  model: beratung_erfurt.subpage
+  pk: 6
+
+- fields:
+    key: company:employee_satisfaction
+    info: change me
+    cause: change me
+    solution: change me
+  model: beratung_erfurt.subpage
+  pk: 7
+
+- fields:
+    key: company:marketing
+    info: change me
+    cause: change me
+    solution: change me
+  model: beratung_erfurt.subpage
+  pk: 8
+
+- fields:
+    key: company:customer_satisfaction
+    info: change me
+    cause: change me
+    solution: change me
+  model: beratung_erfurt.subpage
+  pk: 9
+
+- fields:
+    key: company:consulting
+    info: change me
+    cause: change me
+    solution: change me
+  model: beratung_erfurt.subpage
+  pk: 10
