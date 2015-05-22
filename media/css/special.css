@@ -4,6 +4,15 @@ html, body {
 }
 
 
+.alert .tab-content {
+  color: #555555;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-top-color: transparent;
+  padding: 10px;
+}
+
+
 .navbar-inverse .navbar-nav>li>a {
   color: #CCC;
   font-size: 12pt;

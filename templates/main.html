@@ -5,53 +5,59 @@
 {% block content %}
   <div class="row">
     <div class="col-sm-7">
-      <div class="panel panel-primary">
-        <div class="panel-heading">{{ page_title }}</div>
-        <div class="panel-body">
-          <div class="alert alert-info">
-            {% autoescape off %}
-              {{ info_text }}
-            {% endautoescape %}
+      <h3>{{ page_title }}</h3>
+      <div class="alert alert-info">
+        {% autoescape off %}
+          {{ info_text }}
+        {% endautoescape %}
+        <ul class="nav nav-tabs">
+          <li class="active">
+            <a href="#item1" data-toggle="tab">Beratungskontext</a>
+          </li>
+          <li>
+            <a href="#item2" data-toggle="tab">Honorar</a>
+          </li>
+          <li>
+            <a href="#item3" data-toggle="tab">Kontakt</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="item1">
+            <p>
+              {% autoescape off %}
+                {{ context }}
+              {% endautoescape %}
+            </p>
           </div>
-          <ul class="nav nav-tabs">
-            <li class="active">
-              <a href="#item1" data-toggle="tab">Beratungskontext</a>
-            </li>
-            <li>
-              <a href="#item2" data-toggle="tab">Honorar</a>
-            </li>
-            <li>
-              <a href="#item3" data-toggle="tab">Kontakt</a>
-            </li>
-          </ul>
-          <div class="tab-content">
-            <div class="tab-pane active" id="item1">
-              <p>
-                {% autoescape off %}
-                  {{ context }}
-                {% endautoescape %}
-              </p>
-            </div>
-            <div class="tab-pane" id="item2">
-              <p>
-                {% autoescape off %}
-                  {{ honorar }}
-                {% endautoescape %}
-              </p>
-            </div>
-            <div class="tab-pane" id="item3">
-              <p>
-                {% autoescape off %}
-                  {{ contact }}
-                {% endautoescape %}
-              </p>
-            </div>
+          <div class="tab-pane" id="item2">
+            <p>
+              {% autoescape off %}
+                {{ honorar }}
+              {% endautoescape %}
+            </p>
+          </div>
+          <div class="tab-pane" id="item3">
+            <p>
+              {% autoescape off %}
+                {{ contact }}
+              {% endautoescape %}
+            </p>
           </div>
         </div>
       </div>
-
-
     </div>
+
+    {% comment %}
+      </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading"><h4>{{ page_title }}</h4></div>
+          <div class="panel-body">
+          </div>
+        </div>
+      </div>
+    {% endcomment %}
+
+
     <div class="col-sm-5">
       {% box images.0 image_keys.0 texts.0 urls.0 %}
       {% box images.1 image_keys.1 texts.1 urls.1 %}
@@ -59,4 +65,9 @@
   </div>
   {% block bottom_content%}
   {% endblock bottom_content%}
+
 {% endblock content %}
+{% block style %}
+<style type="text/css">
+</style>
+{% endblock style %}

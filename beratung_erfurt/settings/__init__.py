@@ -66,11 +66,11 @@ INSTALLED_APPS = (
     'utils'
 )
 
-import sys
-if "test" not in sys.argv:
-  INSTALLED_APPS += (
-    "south",
-  )
+# import sys
+# if "test" not in sys.argv:
+#   INSTALLED_APPS += (
+#     "south",
+#   )
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
