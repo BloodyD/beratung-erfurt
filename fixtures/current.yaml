@@ -10,14 +10,14 @@
       \ vornehmen<br>\r\n<br>\r\nSollten Sie noch Fragen bzgl. der Nutzung von urheberrechtlich\
       \ gesch\xFCtzten Material von Beratung-Erfurt haben oder Ihre Verwendung einen\
       \ kommerziellen Zweck verfolgen, so schicken Sie bitte eine Nachricht mit allen\
-      \ dazugeh\xF6rigen Materialien, Texten und Bildern an: <b><a href=\"mailto:admin@beratung-erfurt.de\"\
-      >admin@beratung-erfurt.de</a></b>\r\n", path: copyright, title: "Ver\xF6ffentlichung\
+      \ dazugeh\xF6rigen Materialien, Texten und Bildern an: <b><a href=\"mailto:kontakt@beratung-erfurt.de\"\
+      >kontakt@beratung-erfurt.de</a></b>\r\n", path: copyright, title: "Ver\xF6ffentlichung\
       \ und Urheberrechte"}
   model: beratung_erfurt.page
   pk: 1
 - fields: {active: true, content: "Willy Schmidt<br>\r\nSpittelgartenstra\xDFe 25<br>\r\
       \n99089 Erfurt<br>\r\n<br>\r\n<b>Telefon:</b> 0361/43037062 (Mo.-Fr.: 10 - 16\
-      \ Uhr)<br>\r\n<b>e-Mail:</b> <a href=\"mailto:admin@valutachange.de\">admin@beratung-erfurt.de</a><br>\r\
+      \ Uhr)<br>\r\n<b>e-Mail:</b> <a href=\"mailto:kontakt@beratung-erfurt.de\">kontakt@beratung-erfurt.de</a><br>\r\
       \n<br>\r\n<u>Steuernummer:</u> <br>\r\n<br>\r\n<b><u><h4>Copyright</b></u></h4>\r\
       \n\r\nAlle Grafiken, Scripte und Texte von Beratung-Erfurt.de unterliegen, soweit\
       \ nicht anders angegeben, dem Copyright von Beratung-Erfurt.de.<br>\r\nUnautorisierter\
@@ -41,13 +41,13 @@
       \ eine Beratung, sowie m\xF6gliche Vorgangsweisen besprochen.</p>\r\n<p>Die\
       \ Vergabe weiterer Termine orientiert sich immer am Einzelfall. Die Dauer einer\
       \ Beratungseinheit betr\xE4gt <b>60 Minuten</b>. Diese werden wie folgt abgerechnet:</p>\r\
-      \n<br>\r\n<table border=\"0\" align=\"center\" width=\"40%\">\r\n  <tr>\r\n\
-      \    <td><b>Einzel- & Paarberatung:</b></td>\r\n    <td><b><font color=\"#088A08\"\
-      >39 Euro<small>/h</small></font></b></td>\r\n  </tr>\r\n  <tr>\r\n    <td><b>ab\
-      \ 5 Beratungstermine:</b></td>\r\n    <td><b><font color=\"#088A08\">29 Euro<small>/h</small></font></b></td>\r\
-      \n  </tr>\r\n</table>\r\n<br>\r\n<hr>\r\n<p><small>Studenten erhalten einen\
-      \ <b>Rabatt von 50%</b>.<br>\r\nGemeinn\xFCtzige Organisationen k\xF6nnen eine\
-      \ <b>kostenlose Beratung beantragen</b>.</small></p>", key: 'private:honorar'}
+      \n<br>\r\n<table class=\"table table-hover\">\r\n  <tr>\r\n    <td><b>Einzel-\
+      \ & Paarberatung:</b></td>\r\n    <td><p class=\"text-success\"><b>39 Euro<small>/h</small></b></p></td>\r\
+      \n  </tr>\r\n  <tr>\r\n    <td><b>ab 5 Beratungstermine:</b></td>\r\n    <td><p\
+      \ class=\"text-success\"><b>29 Euro<small>/h</small></b></p></td>\r\n  </tr>\r\
+      \n</table>\r\n<hr>\r\n<p><small>Studenten erhalten einen <b>Rabatt von 50%</b>.<br>\r\
+      \nGemeinn\xFCtzige Organisationen k\xF6nnen eine <b>kostenlose Beratung beantragen</b>.</small></p>",
+    key: 'private:honorar'}
   model: beratung_erfurt.text
   pk: 3
 - fields: {content: "<p>Beratungen k\xF6nnen wie folgt abgehalten werden:\r\n<ul><li><b>Online</b>\
@@ -56,9 +56,9 @@
       \n\r\n\r\n\r\n", key: 'private:context'}
   model: beratung_erfurt.text
   pk: 4
-- fields: {content: "<p>Kontaktformular einf\xFCgen mit:<br>\r\n<b>e-Mail:<br>\r\n\
-      Anliegen:<br>\r\nbevorzugter Beratungskontext:<br>\r\nTerminw\xFCnsche:<br>\r\
-      \n<small>(bevorzugte Uhrzeiten, Wochentage)</small></b>\r\n\r\n", key: 'private:contact'}
+- fields: {content: "<p>Folgende Kontaktm\xF6glichkeiten stehen Dir zur Verf\xFCgung:\
+      \ <br>\r\n<br>\r\n<b>e-Mail:</b> <a href=\"mailto:kontakt@beratung-erfurt.de\"\
+      >kontakt@beratung-erfurt.de</a></p>", key: 'private:contact'}
   model: beratung_erfurt.text
   pk: 5
 - fields: {content: '"Umso steiniger der Weg, umso wertvoller das Ziel."', key: 'company:title'}
@@ -82,13 +82,12 @@
       \ f\xFCr eine Beratung, sowie m\xF6gliche Vorgangsweisen besprochen.</p>\r\n\
       <p>Die Vergabe weiterer Termine orientiert sich immer am Einzelfall. Die Dauer\
       \ einer Beratungseinheit betr\xE4gt <b>60 Minuten</b>. Diese werden wie folgt\
-      \ abgerechnet:</p>\r\n<br>\r\n<table border=\"0\" align=\"center\" width=\"\
-      60%\">\r\n  <tr>\r\n    <td><b>Beratung:</b></td>\r\n    <td><b><font color=\"\
-      #088A08\">39 Euro<small>/h</font></small></b></td>\r\n  </tr>\r\n  <tr>\r\n\
-      \    <td><b>Ausarbeitung:</b></td>\r\n    <td><b><font color=\"#088A08\">45\
-      \ Euro<small>/h</font></small></b></td>\r\n  </tr>\r\n  <tr>\r\n    <td><b>ab\
-      \ 15 Stunden:</b></td>\r\n    <td><b><font color=\"#088A08\">10% Rabatt auf\
-      \ Gesamtkosten<small>/h</small></font></b></td>\r\n  </tr>\r\n</table>\r\n<br>\r\
+      \ abgerechnet:</p>\r\n<br>\r\n<table class=\"table table-hover\">\r\n  <tr>\r\
+      \n    <td><b>Beratung:</b></td>\r\n    <td><p class=\"text-success\"><b>39 Euro<small>/h</small></b></p></td>\r\
+      \n  </tr>\r\n  <tr>\r\n    <td><b>Ausarbeitung:</b></td>\r\n    <td><p class=\"\
+      text-success\"><b>45 Euro<small>/h</small></b></p></td>\r\n  </tr>\r\n  <tr>\r\
+      \n    <td><b>ab 15 Stunden:</b></td>\r\n    <td><p class=\"text-success\"><b>10%\
+      \ Rabatt auf Gesamtkosten<small>/h</small></b></p></td>\r\n  </tr>\r\n</table>\r\
       \n<hr>\r\n<p><small>StartUp-Unternehmen erhalten einen <b>Rabatt von 50%</b>.<br>\r\
       \nGemeinn\xFCtzige Organisationen k\xF6nnen eine <b>kostenlose Beratung beantragen</b>.</small></p>",
     key: 'company:honorar'}
@@ -99,10 +98,10 @@
       \ Videokonferenz)</small></li>\r\n<li><b>Telefon</b></li></ul></p>", key: 'company:context'}
   model: beratung_erfurt.text
   pk: 9
-- fields: {content: "<p>Kontaktformular einf\xFCgen mit:<br>\r\n<b>e-Mail:<br>\r\n\
-      Telefon:<br>\r\n<small>(wenn R\xFCckruf erw\xFCnscht)</small><br>\r\nFirma:<br>\r\
-      \nAnliegen:<br>\r\nbevorzugter Beratungskontext:<br>\r\nTerminw\xFCnsche:<br>\r\
-      \n<small>(bevorzugte Uhrzeiten, Wochentage)</small></b>", key: 'company:contact'}
+- fields: {content: "<p>Folgende Kontaktm\xF6glichkeiten stehen Ihnen zur Verf\xFC\
+      gung: <br>\r\n<br>\r\n<b>e-Mail:</b> <a href=\"mailto:kontakt@beratung-erfurt.de\"\
+      >kontakt@beratung-erfurt.de</a></p>\r\n<p class=\"text-center\">- gerne k\xF6\
+      nnen Sie eine Telefonnummer inkl. R\xFCckrufzeiten hinterlassen.</p>", key: 'company:contact'}
   model: beratung_erfurt.text
   pk: 10
 - fields: {content: "<p><b>Stressbew\xE4ltigung</b></p>\r\n<p>Ein wichtiger Mechanismus\
@@ -136,7 +135,8 @@
   model: beratung_erfurt.text
   pk: 15
 - fields: {content: "<p><b>Allgemeine Beratung</b></p>\r\n<p>Du suchst allgemein nach\
-      \ Rat oder Unterst\xFCtzung? Beides findest du hier: </p>", key: 'private:consulting'}
+      \ Rat oder Unterst\xFCtzung? Beides findest du hier: <b><a href=\"mailto:kontakt@beratung-erfurt.de\"\
+      >Kontakt</a></b></p>", key: 'private:consulting'}
   model: beratung_erfurt.text
   pk: 16
 - fields: {content: "<p><b>Marketing</b></p>\r\n<p>Ein erfolgreiches Marketingkonzept\
@@ -170,7 +170,8 @@
 - fields: {content: "<p><b>Allgemeine Beratung</b></p>\r\n<p>Sie suchen weitere Beratung\
       \ und Unterst\xFCtzung in den Bereichen Innovation <small>(z. B. Brainstorming)</small>,\
       \ Personalrekrutierung, F\xFChrungstrainings o. \xE4.? Kontaktieren Sie mich\
-      \ hier: </p>", key: 'company:consulting'}
+      \ hier: <b><a href=\"mailto:kontakt@beratung-erfurt.de\">Kontakt</a></b>.</p>",
+    key: 'company:consulting'}
   model: beratung_erfurt.text
   pk: 20
 - fields: {image: image_upload/Button_Alle_Systeme_1.png, key: 'company:img:employee
@@ -212,7 +213,7 @@
       teren Verlauf sogar zu dem bekannten <b>Burnout-Syndrom</b> f\xFChren.</p><br>\r\
       \n<p><b>Die <u>Ursachen</u> hierf\xFCr sind weitreichend:</b>\r\n<ul><li>starke\
       \ Motivationslosigkeit</li>\r\n<li>tats\xE4chliche \xDCberlastung</li>\r\n<li>ung\xFC\
-      nstige Einstellung</li></ul></p>\r\n<p  align=\"right\">- um ein paar Wenige\
+      nstige Einstellung</li></ul></p>\r\n<p class=\"text-right\">- um ein paar Wenige\
       \ zu benennen.</p>", info: "<p>Stress entsteht, einfach formuliert, bei <b>\xDC\
       berforderung der eigenen Kapazit\xE4ten</b> - sei es leistungsbedingt oder emotional.\
       \ Mithilfe der Aussch\xFCttung von Stresshormonen versucht der K\xF6rper nun\
@@ -224,8 +225,8 @@
     solution: "<p><b>Welche <u>Unterst\xFCtzung</u> findest du hier?</b>\r\n<ul><li>Aufkl\xE4\
       rung \xFCber die Entstehung & Wirkung von Stress</li>\r\n<li>Hilfe aus stressigen\
       \ Situationen</li>\r\n<li>Coping f\xFCr die Zukunft: Damit du auch in Zukunft\
-      \ f\xFCr stressige Situationen gewappnet bist</li></ul></p>\r\n", title: change
-      me}
+      \ f\xFCr stressige Situationen gewappnet bist</li></ul></p>\r\n", title: "Stressbew\xE4\
+      ltigung"}
   model: beratung_erfurt.subpage
   pk: 1
 - fields: {cause: "<p>Problematisch wird es, sobald das Selbstbewusstsein in eine\
@@ -238,7 +239,7 @@
       \ Aufgaben</b> <small>(z. B. Telefonate oder Referate)</small> f\xFChren.</p><br>\r\
       \n<p><b>Die <u>Ursachen</u> hierf\xFCr sind weitreichend:</b>\r\n<ul><li>negative\
       \ Erfahrungen</li>\r\n<li>wenig/zu viel soziale Unterst\xFCtzung</li>\r\n<li>verzerrte\
-      \ Selbstwahrnehmung</li></ul></p>\r\n<p  align=\"right\">- um ein paar wenige\
+      \ Selbstwahrnehmung</li></ul></p>\r\n<p class=\"text-right\">- um ein paar wenige\
       \ zu benennen.</p>", info: "<p>Das Selbstbewusstsein bezeichnet das Bild eines\
       \ Menschen \xFCber sich selbst, welches sich bereits in der fr\xFChen Kindheit\
       \ entwickelt. Im Laufe des Lebens kann dieses durch viele Faktoren <small>(z.\
@@ -251,7 +252,7 @@
       r eine realistischere Selbstwahrnehmung</li>\r\n<li>Hilfe zur Steigerung des\
       \ Selbstbewusstseins</li>\r\n<li>Coping f\xFCr die Zukunft: Auch in Zukunft\
       \ sollen Referate, Bewerbungsgespr\xE4che, Verkaufssituationen, Telefonate etc.\
-      \ kein Problem mehr darstellen</li></ul></p>\r\n", title: change me}
+      \ kein Problem mehr darstellen</li></ul></p>\r\n", title: Selbstbewusstsein}
   model: beratung_erfurt.subpage
   pk: 2
 - fields: {cause: "<p>Kritisch wird es nur dann, wenn bereits <b>einfache Entscheidungen\
@@ -262,7 +263,7 @@
       \ Zweifeln</b> f\xFChrt.</p><br>\r\n<p><b>Die <u>Ursachen</u> hierf\xFCr sind\
       \ weitreichend:</b>\r\n<ul><li>Motivationslosigkeit</li>\r\n<li>geringes Selbstbewusstsein</li>\r\
       \n<li>Angst vor negativen Konsequenzen</li>\r\n<li>negative Erfahrungen in Hinsicht\
-      \ auf bereits getroffene Entscheidungen</li></ul></p>\r\n<p  align=\"right\"\
+      \ auf bereits getroffene Entscheidungen</li></ul></p>\r\n<p class=\"text-right\"\
       >- um ein paar wenige zu benennen.</p>", info: "<p>Eine Entscheidung erfolgt\
       \ mithilfe von <b>subjektiven</b> und/oder <b>objektiven Kriterien</b>. Dabei\
       \ flie\xDFen u. a. Erfahrungen fr\xFCherer Entscheidungen, der aktuelle Wissensstand,\
@@ -277,35 +278,130 @@
       \ Studiums- oder Berufswahl, allgemeiner Neuorientierung)</small> inkl. geeigneter\
       \ Diagnostik</li>\r\n<li>Coping f\xFCr die Zukunft: Hilfe f\xFCr Bew\xE4ltigung\
       \ neuer Konflikte/Problemstellungen</li></ul>\r\n</p>\r\n<br>\r\n<br> \r\n<p\
-      \  align=\"center\"><b>- effektive Entscheidungsberatung -</b></p>", title: change
-      me}
+      \ class=\"text-center\"><b>- effektive Entscheidungsberatung -</b></p>", title: Entscheidungsfindung}
   model: beratung_erfurt.subpage
   pk: 3
-- fields: {cause: change me, info: "<p>Mithilfe des Gef\xFChls \"Angst\" <b>reagiert\
-      \ der K\xF6rper</b> auf eine vorhandene oder angenommene <b>bedrohliche Situation</b>.\
-      \ Dies ist im Grunde sinnvoll, da dadurch dieser Situation deutlich mehr Aufmerksamkeit\
-      \ geschenkt wird und eine angemessene Reaktion gezeigt werden kann.</p>", key: 'private:everyday_fears',
-    solution: change me, title: change me}
+- fields: {cause: "<p>Bedenklich wird es nur dann, wenn eine offensichtlich <b>unbedrohliche\
+      \ Situation</b> zu einem Angstgef\xFChl und einer einhergehenden <b>ung\xFC\
+      nstigen Reaktion</b> <small>(z. B. Vermeidung/Flucht)</small> f\xFChrt.</p><br>\r\
+      \n<p><b>Die <u>Ursachen</u> hierf\xFCr sind weitreichend:</b>\r\n<ul><li>negative\
+      \ Erfahrung(en)</li>\r\n<li>unbewusstes konditionieren <small>(durch z. B. Vermeidung\
+      \ unangenehmer Situationen)</small></li>\r\n<li>geringes Selbstbewusstsein</li></ul></p>\r\
+      \n<p class=\"text-right\">- um ein paar wenige zu benennen.</p>", info: "<p>Mithilfe\
+      \ des Gef\xFChls \"Angst\" <b>reagiert der K\xF6rper</b> auf eine vorhandene\
+      \ oder angenommene <b>bedrohliche Situation</b>. Dies ist im Grunde sinnvoll,\
+      \ da dadurch dieser Situation deutlich mehr Aufmerksamkeit geschenkt wird und\
+      \ eine angemessene Reaktion gezeigt werden kann.</p>", key: 'private:everyday_fears',
+    solution: "<p><b>Welche <u>Unterst\xFCtzung</u> findest du hier?</b><br><br>\r\
+      \n<ul><li>Aufkl\xE4rung \xFCber die Entstehung & Wirkung von Angst</li>\r\n\
+      <li>gemeinsame Beseitigung einer \"Alltagsangst\"*</li>\r\n<li>Coping f\xFC\
+      r die Zukunft: Hilfe f\xFCr zuk\xFCnftige Selbsthilfe</li></ul></p>\r\n<br>\r\
+      \n<br>\r\n<p><small>* gemeint sind hier z. B. Pr\xFCfungsangst, Verlustangst,\
+      \ einfache Schlafangst o. \xE4.. Bei starken \xC4ngsten (sogenannte \"Angstst\xF6\
+      rungen\"), die einen normalen Alltag kaum mehr erm\xF6glichen, empfehle ich\
+      \ das Aufsuchen eines Therapeuten. Gerne kl\xE4re ich, im Rahmen meiner M\xF6\
+      glichkeiten, \xFCber die Gegebenheiten auf und helfe bei der Suche nach einem\
+      \ geeigneten Therapeuten.</small></p>", title: "\"Alltags\xE4ngste\""}
   model: beratung_erfurt.subpage
   pk: 4
-- fields: {cause: change me, info: change me, key: 'private:relationship', solution: change
-      me, title: change me}
+- fields: {cause: "<p>Problematisch wird es dann, wenn einem eine wichtige Person\
+      \ den R\xFCcken kehrt und dies zu <b>anhaltenden Selbstzweifeln</b> und <b>Wutausbr\xFC\
+      chen</b> kommt. Es werden <b>Aufgaben vernachl\xE4ssigt</b>, <b>irrationale\
+      \ Entscheidungen getroffen</b> und das weitere <b>soziale Umfeld stark beansprucht</b>.\
+      \ Es scheint oftmals so als habe nicht mehr der Verstand, sondern die Gef\xFC\
+      hle die Kontrolle \xFCber das eigene Handeln...</p><br>\r\n<p><b>Die <u>Ursachen</u>\
+      \ hierf\xFCr k\xF6nnen sein:</b>\r\n<ul><li>Abh\xE4ngigkeit</li>\r\n<li>Uneinsichtigkeit</li>\r\
+      \n<li>geringes Selbstbewusstsein</li>\r\n<li>zu hohe Erwartungen - wenig oder\
+      \ zu viel Eigeninitiative</li></ul></p>\r\n<p class=\"text-right\">- um ein\
+      \ paar Wenige zu benennen.</p>", info: "<p>Zwischenmenschliche Beziehungen sind\
+      \ ein wesentlicher Bestandteil unseres Alltags. Dazu z\xE4hlen nicht nur <b>partnerschaftliche</b>\
+      \ sondern auch <b>famili\xE4re</b>, <b>freundschaftliche</b> oder <b>zweckgebundene\
+      \ Beziehungen</b> <small>(z. B. im Arbeitskontext)</small>. Sie helfen uns Aufgaben\
+      \ des Alltags oder der Arbeit zu bew\xE4ltigen, Stress zu verarbeiten, das eigene\
+      \ Selbstbewusstsein zu definieren oder festigen, Entscheidungen zu treffen und\
+      \ vieles mehr.</p>", key: 'private:relationship', solution: "<p><b>Welche <u>Unterst\xFC\
+      tzung</u> findest du hier?</b><br><br>\r\n<ul><li>Aufkl\xE4rung \xFCber die\
+      \ Entstehung & Wirkung der Gef\xFChle und \xC4ngste</li>\r\n<li>Hilfe aus Liebeskummer,\
+      \ Trennungsangst o. \xE4.</li>\r\n<li>Coping f\xFCr die Zukunft: Damit du auch\
+      \ in Zukunft gest\xE4rkter in solch kritische Situationen gehst</li></p>\r\n\
+      <br>\r\n<br>\r\n<p class=\"text-center\"><b>- Einzel- & Paarberatung -</b></p>",
+    title: Beziehung}
   model: beratung_erfurt.subpage
   pk: 5
 - fields: {cause: change me, info: change me, key: 'private:consulting', solution: change
       me, title: change me}
   model: beratung_erfurt.subpage
   pk: 6
-- fields: {cause: change me, info: change me, key: 'company:employee_satisfaction',
-    solution: change me, title: change me}
+- fields: {cause: "<p>Unzufriedenheit der Mitarbeiter \xE4u\xDFert sich h\xE4ufig\
+      \ in Form einer hohen <b>Mitarbeiterfluktuation</b>, einem hohen <b>Krankheitsstand</b>\
+      \ bzw. vermehrten <b>Fehltagen</b> und geht nicht zuletzt mit einer <b>geringen\
+      \ Produktivit\xE4t</b> einher.</p><br>\r\n<p><b>Die <u>Ursachen</u> hierf\xFC\
+      r sind weitreichend:</b>\r\n<ul><li>\xDCberlastung <small>(z. B. \xFCberm\xE4\
+      \xDFige Verantwortung)</small></li>\r\n<li>ung\xFCnstige Arbeitsbedingungen</li>\r\
+      \n<li>unangemessener F\xFChrungsstil</li>\r\n<li>Mobbing</li>\r\n<li>verzerrte\
+      \ Verh\xE4ltnisse zwischen Gehalt und Verantwortung</li></ul></p>\r\n<p class=\"\
+      text-right\">- um ein paar Wenige zu benennen.</p>", info: "<p class=\"text-center\"\
+      ><b>\"Jedes Unternehmen kann nur so gut sein wie seine Mitarbeiter.\"</b></p>\r\
+      \n<br>\r\n<p>Diese schlichte Wahrheit bringt die Notwendigkeit auf den Punkt,\
+      \ mit der die Zufriedenheit der Mitarbeiter zu beachten ist. Immerhin sind es\
+      \ deren <b>firmenspezifischen Fertigkeiten und Erfahrungen</b>, welche ma\xDF\
+      geblich das Unternehmen am Laufen halten. So f\xF6rdern beispielsweise Betriebsfeste\
+      \ den durchaus wichtigen Teamgeist, jedoch bleibt die <b>Motivation des Einzelnen</b>\
+      \ davon nahezu unbeeinflusst und wird eher durch ein <b>komplexes Zusammenspiel\
+      \ verschiedener Faktoren</b> <small>(z. B. Arbeitsplatzsicherheit, Entwicklungsm\xF6\
+      glichkeiten, Verantwortung, Gehalt, F\xFChrungsstil, Ansehen des Unternehmens\
+      \ uvm.)</small> bestimmt. Dabei muss prinzipiell zwischen <b>wahrgenommenen\
+      \ und tats\xE4chlichen Gegebenheiten</b> unterschieden werden.</p>", key: 'company:employee_satisfaction',
+    solution: "<p class=\"text-center\"><b>\xDCberblick der <u>Beratungsangebote</u></b></p><br>\r\
+      \n<p><ul><li>Messung der Mitarbeiterzufriedenheit <small>(u. a. Identifikation\
+      \ mit dem Job)</small></li>\r\n<li>Ausarbeitung von geeigneten Instrumenten\
+      \ f\xFCr die Steigerung der Zufriedenheit <small>(z. B. Mitarbeitergespr\xE4\
+      che, Teambesprechungen, SMART-Ziele)</small></li>\r\n<li>Hilfestellung f\xFC\
+      r eine nachhaltig positive Entwicklung der Mitarbeiterzufriedenheit</li></ul></p>\r\
+      \n", title: Mitarbeiterzufriedenheit}
   model: beratung_erfurt.subpage
   pk: 7
-- fields: {cause: change me, info: change me, key: 'company:marketing', solution: change
-      me, title: change me}
+- fields: {cause: "<p>Problematisch wird es besonders dann, wenn kontinuierlich <b>finanzierte\
+      \ Marketingkampagnen</b> eher <b>weniger</b> oder gar <b>gegenteilig wirken</b>,\
+      \ dies jedoch aus den Umsatzzahlen <b>nicht ersichtlich</b> wird.</p><br>\r\n\
+      <p><b>Die <u>Ursachen</u> hierf\xFCr sind h\xE4ufig:</b><br>\r\n<ul><li>ein\
+      \ fehlendes Marketingkonzept</li>\r\n<li>Konzentration auf das Produkt <small>(Missachtung\
+      \ weiterer \"Nebenbotschaften\")</small></li>\r\n<li>keine qualitative Erfolgskontrolle</li>\r\
+      \n<p class=\"text-right\">- um ein paar Wenige zu benennen.</p>", info: "<p>Im\
+      \ Zuge einer <b>Marketingkampagne</b> stellt sich die Frage: <b>\"Was wollen\
+      \ wir Wann, Wie, Wo pr\xE4sentieren?\"</b>. Neben dem Schwerpunkt <small>(die\
+      \ Bekanntmachung des Produktes oder der Dienstleistung)</small> wird jedoch\
+      \ h\xE4ufig die Wirkung einer gut durchdachten Kampagne untersch\xE4tzt. So\
+      \ kann beispielsweise das Image eines Unternehmens unter bereits einer einzigen,\
+      \ schlecht konzipierten Werbekampagne leiden. Dagegen f\xFChrt die F\xF6rderung\
+      \ eines positiven Images zu einer <b>intensiveren und nachhaltigeren Wirkung</b>\
+      \ bei potentiellen Kunden.</p>", key: 'company:marketing', solution: "<p class=\"\
+      text-center\"><b>\xDCberblick der <u>Beratungsangebote</u></b></p><br>\r\n<p><ul><li>Entwicklung\
+      \ eines Marketingkonzeptes <small>(Definition des gew\xFCnschten Images, Identifizierung\
+      \ geeigneter Marketingformen)</small></li>\r\n<li>Entwicklung, Konzipierung\
+      \ und Gestaltungsberatung verschiedener Kampagnen</li>\r\n<li>Ausarbeitung eines\
+      \ Marketingplans</li>\r\n<li>Durchf\xFChrung, Kontrolle und Ergebnisdarstellung\
+      \ verschiedener Kampagnen</li></ul></p>\r\n", title: Marketing}
   model: beratung_erfurt.subpage
   pk: 8
-- fields: {cause: change me, info: change me, key: 'company:customer_satisfaction',
-    solution: change me, title: change me}
+- fields: {cause: "<p><b>Negative Kundenrezensionen</b> f\xFChren zu weitreichenden\
+      \ Folgen. So leidet hierunter das Image des Unternehmens, welches ma\xDFgeblich\
+      \ an dem Erfolg von <b>Marketingkampagnen</b> beteiligt ist und die <b>Mitarbeiterzufriedenheit</b>\
+      \ stark beeinflussen kann.</p><br>\r\n<p><b>Die <u>Ursachen</u> hierf\xFCr sind\
+      \ h\xE4ufig:</b>\r\n<ul><li>unfreundliches Personal <small>(aufgrund geringer\
+      \ Mitarbeiterzufriedenheit?)</small></li>\r\n<li>\xDCberforderung der Mitarbeiter\
+      \ in Konfliktsituationen mit den Kunden</li>\r\n<li>fehlende Kommunikation mit\
+      \ dem Kunden</li></ul></p>\r\n<p class=\"text-right\">- um ein paar Wenige zu\
+      \ benennen.</p>", info: "<p>Die Zufriedenheit der Kunden ist nicht nur ein <b>Ma\xDF\
+      \ f\xFCr die Qualit\xE4t</b> des Produktes und der Kundenbetreuung, sondern\
+      \ dient zus\xE4tzlich dem <b>Marketing</b> <small>(durch z. B. Mundpropaganda)</small>\
+      \ sowie als <b>Indikator und Moderator f\xFCr die Mitarbeiterzufriedenheit</b>\
+      \ Desweiteren sind zufriedene Kunden ma\xDFgeblich st\xE4rker an einem Wiederholungskauf\
+      \ interessiert als unzufriedene.</p>", key: 'company:customer_satisfaction',
+    solution: "<p class=\"text-center\"><b>\xDCberblick der <u>Beratungsangebote</u></b></p><br>\r\
+      \n<ul><li>Identifikation von Schwachstellen</li>\r\n<li>Konzeption einer Optimierungsempfehlung</li>\r\
+      \n<li>Durchf\xFChrung und Kontrolle der Optimierungsempfehlung</li></ul></p>\r\
+      \n", title: Kundenzufriedenheit}
   model: beratung_erfurt.subpage
   pk: 9
 - fields: {cause: change me, info: change me, key: 'company:consulting', solution: change
