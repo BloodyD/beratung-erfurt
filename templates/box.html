@@ -12,9 +12,9 @@
       {% autoescape off %}
         {{ text }}
       {% endautoescape %}
-        <p>
-          <a href = "{{ url }}" class="btn btn-success btn-xs pull-right">Weiter <i class="glyphicon glyphicon-chevron-right"></i></a>
-        </p>
+      {% if not allgemein %}
+        <p><a href = "{{ url }}" class="btn btn-success btn-xs pull-right">Weiter <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+      {% endif %}
     </div>
   </div>
 </div>

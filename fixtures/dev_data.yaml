@@ -32,174 +32,174 @@
   pk: 2
 
 
-#### pages
-- fields:
-    path: copyright
-    title: Veröffentlichung und Urheberrechte
-    content: change me
-    active: true
-  model: beratung_erfurt.page
-  pk: 1
+# #### pages
+# - fields:
+#     path: copyright
+#     title: Veröffentlichung und Urheberrechte
+#     content: change me
+#     active: true
+#   model: beratung_erfurt.page
+#   pk: 1
 
-- fields:
-    path: impress
-    title: Impressum
-    content: change me
-    active: true
-  model: beratung_erfurt.page
-  pk: 2
+# - fields:
+#     path: impress
+#     title: Impressum
+#     content: change me
+#     active: true
+#   model: beratung_erfurt.page
+#   pk: 2
 
-#### texts
+# #### texts
 
 
-- fields:
-    key: private:title
-    content: change me
-  model: beratung_erfurt.text
-  pk: 1
+# - fields:
+#     key: private:title
+#     content: change me
+#   model: beratung_erfurt.text
+#   pk: 1
 
-- fields:
-    key: private:info_text
-    content: change me
-  model: beratung_erfurt.text
-  pk: 2
+# - fields:
+#     key: private:info_text
+#     content: change me
+#   model: beratung_erfurt.text
+#   pk: 2
 
-- fields:
-    key: private:honorar
-    content: change me
-  model: beratung_erfurt.text
-  pk: 3
+# - fields:
+#     key: private:honorar
+#     content: change me
+#   model: beratung_erfurt.text
+#   pk: 3
 
-- fields:
-    key: private:context
-    content: change me
-  model: beratung_erfurt.text
-  pk: 4
+# - fields:
+#     key: private:context
+#     content: change me
+#   model: beratung_erfurt.text
+#   pk: 4
 
-- fields:
-    key: private:contact
-    content: change me
-  model: beratung_erfurt.text
-  pk: 5
+# - fields:
+#     key: private:contact
+#     content: change me
+#   model: beratung_erfurt.text
+#   pk: 5
 
-- fields:
-    key: company:title
-    content: change me
-  model: beratung_erfurt.text
-  pk: 6
+# - fields:
+#     key: company:title
+#     content: change me
+#   model: beratung_erfurt.text
+#   pk: 6
 
-- fields:
-    key: company:info_text
-    content: change me
-  model: beratung_erfurt.text
-  pk: 7
+# - fields:
+#     key: company:info_text
+#     content: change me
+#   model: beratung_erfurt.text
+#   pk: 7
 
-- fields:
-    key: company:honorar
-    content: change me
-  model: beratung_erfurt.text
-  pk: 8
+# - fields:
+#     key: company:honorar
+#     content: change me
+#   model: beratung_erfurt.text
+#   pk: 8
 
-- fields:
-    key: company:context
-    content: change me
-  model: beratung_erfurt.text
-  pk: 9
+# - fields:
+#     key: company:context
+#     content: change me
+#   model: beratung_erfurt.text
+#   pk: 9
 
-- fields:
-    key: company:contact
-    content: change me
-  model: beratung_erfurt.text
-  pk: 10
+# - fields:
+#     key: company:contact
+#     content: change me
+#   model: beratung_erfurt.text
+#   pk: 10
 
-#### subpages
+# #### subpages
 
-- fields:
-    key: private:stress
-    title: change me
-    info: change me
-    cause: change me
-    solution: change me
-  model: beratung_erfurt.subpage
-  pk: 1
+# - fields:
+#     key: private:stress
+#     title: change me
+#     info: change me
+#     cause: change me
+#     solution: change me
+#   model: beratung_erfurt.subpage
+#   pk: 1
 
-- fields:
-    key: private:self_esteem
-    title: change me
-    info: change me
-    cause: change me
-    solution: change me
-  model: beratung_erfurt.subpage
-  pk: 2
+# - fields:
+#     key: private:self_esteem
+#     title: change me
+#     info: change me
+#     cause: change me
+#     solution: change me
+#   model: beratung_erfurt.subpage
+#   pk: 2
 
-- fields:
-    key: private:desicion_making
-    title: change me
-    info: change me
-    cause: change me
-    solution: change me
-  model: beratung_erfurt.subpage
-  pk: 3
+# - fields:
+#     key: private:desicion_making
+#     title: change me
+#     info: change me
+#     cause: change me
+#     solution: change me
+#   model: beratung_erfurt.subpage
+#   pk: 3
 
-- fields:
-    key: private:everyday_fears
-    title: change me
-    info: change me
-    cause: change me
-    solution: change me
-  model: beratung_erfurt.subpage
-  pk: 4
+# - fields:
+#     key: private:everyday_fears
+#     title: change me
+#     info: change me
+#     cause: change me
+#     solution: change me
+#   model: beratung_erfurt.subpage
+#   pk: 4
 
-- fields:
-    key: private:relationship
-    title: change me
-    info: change me
-    cause: change me
-    solution: change me
-  model: beratung_erfurt.subpage
-  pk: 5
+# - fields:
+#     key: private:relationship
+#     title: change me
+#     info: change me
+#     cause: change me
+#     solution: change me
+#   model: beratung_erfurt.subpage
+#   pk: 5
 
-- fields:
-    key: private:consulting
-    title: change me
-    info: change me
-    cause: change me
-    solution: change me
-  model: beratung_erfurt.subpage
-  pk: 6
+# - fields:
+#     key: private:consulting
+#     title: change me
+#     info: change me
+#     cause: change me
+#     solution: change me
+#   model: beratung_erfurt.subpage
+#   pk: 6
 
-- fields:
-    key: company:employee_satisfaction
-    title: change me
-    info: change me
-    cause: change me
-    solution: change me
-  model: beratung_erfurt.subpage
-  pk: 7
+# - fields:
+#     key: company:employee_satisfaction
+#     title: change me
+#     info: change me
+#     cause: change me
+#     solution: change me
+#   model: beratung_erfurt.subpage
+#   pk: 7
 
-- fields:
-    key: company:marketing
-    title: change me
-    info: change me
-    cause: change me
-    solution: change me
-  model: beratung_erfurt.subpage
-  pk: 8
+# - fields:
+#     key: company:marketing
+#     title: change me
+#     info: change me
+#     cause: change me
+#     solution: change me
+#   model: beratung_erfurt.subpage
+#   pk: 8
 
-- fields:
-    key: company:customer_satisfaction
-    title: change me
-    info: change me
-    cause: change me
-    solution: change me
-  model: beratung_erfurt.subpage
-  pk: 9
+# - fields:
+#     key: company:customer_satisfaction
+#     title: change me
+#     info: change me
+#     cause: change me
+#     solution: change me
+#   model: beratung_erfurt.subpage
+#   pk: 9
 
-- fields:
-    key: company:consulting
-    title: change me
-    info: change me
-    cause: change me
-    solution: change me
-  model: beratung_erfurt.subpage
-  pk: 10
+# - fields:
+#     key: company:consulting
+#     title: change me
+#     info: change me
+#     cause: change me
+#     solution: change me
+#   model: beratung_erfurt.subpage
+#   pk: 10
