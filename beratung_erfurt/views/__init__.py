@@ -6,7 +6,11 @@ from beratung_erfurt.models import Page, Text, Image, SubPage
 
 @render_to("index.html")
 def index(request):
-  return {}
+  key = "index_pic"
+  return {
+    "img_url": img_url(key),
+    "img_key": key,
+    }
 
 @render_to("page.html")
 def page(request, path):

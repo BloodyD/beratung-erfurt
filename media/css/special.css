@@ -13,6 +13,12 @@ html, body {
 }
 
 
+#indexpic {
+  margin: 0 auto;
+  height: 600px;
+  display: block;
+}
+
 .navbar-inverse .navbar-nav>li>a {
   color: #CCC;
   font-size: 12pt;

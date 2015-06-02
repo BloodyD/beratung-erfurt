@@ -2,5 +2,11 @@
 
 
 {%block content%}
-  <h1>This is the index page!</h1>
+   <div>
+    {% if img_url %}
+      <img alt="ValutChange Startgrafik" id="indexpic" src="/media/{{ img_url }}">
+    {% else %}
+      upload an image with key <b>{{ img_key }}</b>
+    {% endif %}
+  </div>
 {%endblock content%}
