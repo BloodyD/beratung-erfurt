@@ -2,3 +2,6 @@
 secret_key.txt
 *.sqlite*
 media/image_upload/*
+*.png
+*.jpg
+
