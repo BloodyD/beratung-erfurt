@@ -38,7 +38,7 @@ urlpatterns = patterns('',
 
     (r'^sitemap\.xml$', 'django.contrib.sitemaps.views.sitemap', {'sitemaps': sitemaps}),
     url(r'^google795b8bd63344ce1e\.html$', lambda x: HttpResponse("google-site-verification: google795b8bd63344ce1e.html")),
-    url(r'^mywotc9bfdbcbe4f86f37d643\.html$', lambda x: HttpResponse("dc9b36747dc8dd0dac3bc3da56440dff")),
+    url(r'^mywotc1345dd94b7e668fb1a3\.html$', lambda x: HttpResponse("30520abbde1b740cf42043cdfc2bafd7")),
     url(r'^(?P<path>.+?)/$', 'beratung_erfurt.views.page', name = 'page'),
 )
 
