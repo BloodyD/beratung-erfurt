@@ -22,6 +22,7 @@ class ViewSitemap(Sitemap):
 
 sitemaps = {'views': ViewSitemap}
 
+from django.http import HttpResponse
 
 urlpatterns = patterns('',
 
