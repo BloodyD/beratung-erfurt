@@ -2,11 +2,16 @@
 
 
 {%block content%}
-   <div>
-    {% if img_url %}
-      <img alt="ValutChange Startgrafik" id="indexpic" src="/media/{{ img_url }}">
+   <div class="front-inner">
+    {% if priv_url %}
+      <a href="{% url 'private' %}"><img alt="Private Beratung" id="indexprivpic" src="/media/{{ priv_url }}"></a>
     {% else %}
-      upload an image with key <b>{{ img_key }}</b>
+      upload an image with key <b>{{ priv_key }}</b>
+    {% endif %}
+    {% if prof_url %}
+      <a href="{% url 'company' %}"><img alt="Unternehmerische Beratung" id="indexprofpic" src="/media/{{ prof_url }}"></a>
+    {% else %}
+      upload an image with key <b>{{ prof_key }}</b>
     {% endif %}
   </div>
 {%endblock content%}

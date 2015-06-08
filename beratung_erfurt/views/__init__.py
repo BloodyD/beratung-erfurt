@@ -6,10 +6,13 @@ from beratung_erfurt.models import Page, Text, Image, SubPage
 
 @render_to("index.html")
 def index(request):
-  key = "index_pic"
+  priv_key = "priv_pic"
+  prof_key = "prof_pic"
   return {
-    "img_url": img_url(key),
-    "img_key": key,
+    "priv_url": img_url(priv_key),
+    "prof_url": img_url(prof_key),
+    "priv_key": priv_key,
+    "prof_key": prof_key
     }
 
 @render_to("page.html")
