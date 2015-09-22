@@ -41,6 +41,7 @@ urlpatterns = patterns('',
     url(r'^google795b8bd63344ce1e\.html$', lambda x: HttpResponse("google-site-verification: google795b8bd63344ce1e.html")),
     url(r'^mywotc1345dd94b7e668fb1a3\.html$', lambda x: HttpResponse("30520abbde1b740cf42043cdfc2bafd7")),
     url(r'^(?P<path>.+?)/$', 'beratung_erfurt.views.page', name = 'page'),
+    url(r'^robots\.txt$', lambda x: HttpResponse("User-agent: *\nDisallow: /media/")),
 )
 
 if settings.DEBUG is True:
