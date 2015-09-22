@@ -1,8 +1,7 @@
 from django.shortcuts import get_object_or_404
 
 from utils.decorators import render_to
-from beratung_erfurt.models import Page, Text, Image, SubPage
-
+from beratung_erfurt.models import Page, Text, Image, SubPage, SeoData
 
 @render_to("index.html")
 def index(request):
@@ -12,7 +11,8 @@ def index(request):
     "priv_url": img_url(priv_key),
     "prof_url": img_url(prof_key),
     "priv_key": priv_key,
-    "prof_key": prof_key
+    "prof_key": prof_key,
+    "meta_data": SeoData.get_metadata("index")
     }
 
 @render_to("page.html")
@@ -21,6 +21,7 @@ def page(request, path):
   return {
     "page_title": page.title,
     "content": page.content,
+    "meta_data": SeoData.get_metadata(path)
   }
 
 def info_text(key):
@@ -34,23 +35,6 @@ def img_url(key):
     return Image.objects.get(key = key).image
   except Image.DoesNotExist:
     return None
-
-def sub_page(key):
-  try:
-    subpage = SubPage.objects.get(key = key)
-    return {
-      "page_title": subpage.title,
-      "info_text": subpage.info,
-      "cause_text": subpage.cause,
-      "solution_text": subpage.solution,
-    }
-  except SubPage.DoesNotExist:
-    return {
-      "page_title": "Create SubPage with key <b>{}</b>".format(key),
-      "info_text": "Create SubPage with key <b>{}</b>".format(key),
-      "cause_text": "Create SubPage with key <b>{}</b>".format(key),
-      "solution_text": "Create SubPage with key <b>{}</b>".format(key),
-    }
 
 @render_to("private.html")
 def private(request):
@@ -73,6 +57,7 @@ def private(request):
     "images": map(img_url, img_keys),
     "image_keys": img_keys,
     "urls": map(lambda key: key.replace(" ", "_"), keys),
+    "meta_data": SeoData.get_metadata("private")
   }
 
 
@@ -95,8 +80,28 @@ def company(request):
     "images": map(img_url, img_keys),
     "image_keys": img_keys,
     "urls": map(lambda key: key.replace(" ", "_"), keys),
+    "meta_data": SeoData.get_metadata("company")
   }
 
+
+def sub_page(key):
+  try:
+    subpage = SubPage.objects.get(key = key)
+    return {
+      "page_title": subpage.title,
+      "info_text": subpage.info,
+      "cause_text": subpage.cause,
+      "solution_text": subpage.solution,
+      "meta_data": SeoData.get_metadata(key)
+    }
+  except SubPage.DoesNotExist:
+    return {
+      "page_title": "Create SubPage with key <b>{}</b>".format(key),
+      "info_text": "Create SubPage with key <b>{}</b>".format(key),
+      "cause_text": "Create SubPage with key <b>{}</b>".format(key),
+      "solution_text": "Create SubPage with key <b>{}</b>".format(key),
+      "meta_data": SeoData.get_metadata(key)
+    }
 
 @render_to("sub_page.html")
 def company_page(request, path):

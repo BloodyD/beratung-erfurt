@@ -1,6 +1,10 @@
 {% extends "main.html" %}
 {% load inclusions %}
 
+{% block head %}
+  {% seo_data meta_data %}
+{% endblock head %}
+
 
 {% block bottom_content%}
   <div class="row">

@@ -33,7 +33,17 @@ def register(*models, **kwargs):
 
 
 
-from beratung_erfurt.models import Page, Text, Image, SubPage
+from beratung_erfurt.models import Page, Text, Image, SubPage, SeoData
+
+@register(SeoData)
+class SeoDataAdmin(admin.ModelAdmin):
+  list_display = (
+    'key',
+    'description',
+    'keywords',
+    )
+
+
 
 @register(Page)
 class PageAdmin(admin.ModelAdmin):
