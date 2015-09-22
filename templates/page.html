@@ -1,21 +1,19 @@
 {% extends "base.html" %}
 
+{% load inclusions %}
+
+{% block head %}
+  {% seo_data meta_data %}
+{% endblock head %}
+
 {%block content%}
   {% if content %}
     <h2>{{ page_title }}</h2>
     <div class="well">
-        {% autoescape off %}
-        {{ content }}
-        {% endautoescape %}
-
+      {% autoescape off %}
+      {{ content }}
+      {% endautoescape %}
     </div>
-    {% comment %}
-    <div class="panel panel-primary">
-      <div class="panel-heading"></div>
-      <div class="panel-body">
-      </div>
-    </div>
-    {% endcomment %}
   {% else %}
   {% endif %}
 {%endblock content%}

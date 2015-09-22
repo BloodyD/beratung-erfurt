@@ -1,5 +1,9 @@
 {% extends "base.html" %}
+{% load inclusions %}
 
+{% block head %}
+  {% seo_data meta_data %}
+{% endblock head %}
 
 {%block content%}
    <div class="front-inner">
