@@ -11,7 +11,8 @@ class ViewSitemap(Sitemap):
   def items(self):
     return [
       'index',
-      # add your views here
+      'private',
+      'company',
     ]
 
   def location(self, item):
