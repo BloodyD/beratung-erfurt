@@ -63,7 +63,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django_extensions',
     'beratung_erfurt',
-    'utils'
+    'dbbackup',
+    'utils',
 )
 
 # import sys
@@ -113,3 +114,5 @@ USE_L10N = True
 USE_TZ = True
 
 SITE_ID = 1
+
+from .db_backup import *
